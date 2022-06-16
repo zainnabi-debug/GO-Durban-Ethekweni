@@ -1,0 +1,1488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GoDurbanModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="AccountID" />
+    </Key>
+    <Property Name="AccountID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AccountNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="BankID" Type="int" />
+  </EntityType>
+  <EntityType Name="Association">
+    <Key>
+      <PropertyRef Name="AssociationID" />
+    </Key>
+    <Property Name="AssociationID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AssociationName" Type="nvarchar" MaxLength="50" />
+    <Property Name="AssociationNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="AccountID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'GoDurban.dbo.Audit' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Audit">
+          <Property Name="Type" Type="char" MaxLength="1" />
+          <Property Name="TableName" Type="varchar" MaxLength="128" />
+          <Property Name="PK" Type="varchar" MaxLength="1000" />
+          <Property Name="FieldName" Type="varchar" MaxLength="128" />
+          <Property Name="OldValue" Type="varchar" MaxLength="1000" />
+          <Property Name="NewValue" Type="varchar" MaxLength="1000" />
+          <Property Name="UpdateDate" Type="datetime" />
+          <Property Name="UserName" Type="varchar" MaxLength="128" />
+        </EntityType>-->
+  <EntityType Name="Bank">
+    <Key>
+      <PropertyRef Name="BankID" />
+    </Key>
+    <Property Name="BankID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BankName" Type="nvarchar" MaxLength="50" />
+    <Property Name="BranchCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'GoDurban.dbo.data' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="data">
+    <Key>
+      <PropertyRef Name="AssociationID" />
+    </Key>
+    <Property Name="AssociationID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AssociationName" Type="nvarchar" MaxLength="50" />
+    <Property Name="AssociationNo" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Dates">
+    <Key>
+      <PropertyRef Name="DateID" />
+    </Key>
+    <Property Name="DateID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Year" Type="int" Nullable="false" />
+    <Property Name="Month" Type="int" Nullable="false" />
+    <Property Name="Day" Type="int" Nullable="false" />
+    <Property Name="QuarterNumber" Type="int" Nullable="false" />
+    <Property Name="keydate" Type="varchar" MaxLength="50" />
+    <Property Name="month_name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="NoOfClicksPerMonth">
+    <Key>
+      <PropertyRef Name="NoOfClicksID" />
+    </Key>
+    <Property Name="NoOfClicksID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IsPaymentSent" Type="nvarchar" MaxLength="10" />
+    <Property Name="MonthClicked" Type="int" />
+    <Property Name="ColumnName" Type="nvarchar" MaxLength="50" />
+    <Property Name="RangeDate" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PaymentID" />
+    </Key>
+    <Property Name="PaymentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="TransNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="BatchNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="DocTy" Type="nvarchar" MaxLength="50" />
+    <Property Name="SP" Type="nchar" MaxLength="10" />
+    <Property Name="STSCD" Type="nvarchar" MaxLength="50" />
+    <Property Name="LongAddress" Type="nvarchar(max)" />
+    <Property Name="AccountName" Type="nvarchar(max)" />
+    <Property Name="AccountNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="IDIssuer" Type="nvarchar" MaxLength="50" />
+    <Property Name="ID1Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="TaxID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhoneNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="AddressLine1" Type="nvarchar(max)" />
+    <Property Name="AddressLine2" Type="nvarchar(max)" />
+    <Property Name="AddressLine3" Type="nvarchar(max)" />
+    <Property Name="AddressLine4" Type="nvarchar(max)" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="PostalCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="DocNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="AddressNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="PaymentMethod" Type="nchar" MaxLength="10" />
+    <Property Name="BankName" Type="nvarchar" MaxLength="50" />
+    <Property Name="BankTransit" Type="nvarchar" MaxLength="50" />
+    <Property Name="BankAccNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsPaymentSent" Type="nvarchar" MaxLength="10" />
+    <Property Name="VoidedPayment" Type="bit" />
+    <Property Name="OwnerID" Type="int" />
+    <Property Name="RegionID" Type="int" />
+    <Property Name="AssociationID" Type="int" />
+    <Property Name="EntityType" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="RegionID" />
+    </Key>
+    <Property Name="RegionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RegionName" Type="nvarchar" MaxLength="500" />
+    <Property Name="RegionNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="AccountID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_AssociationLeadership">
+    <Key>
+      <PropertyRef Name="AssociationLeaderID" />
+    </Key>
+    <Property Name="AssociationLeaderID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AssociationID" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="100" />
+    <Property Name="IDNo" Type="nvarchar" MaxLength="13" />
+    <Property Name="Passport" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsPassport" Type="bit" />
+    <Property Name="CalcBirthDate" Type="date" />
+    <Property Name="CellNo" Type="nvarchar" MaxLength="10" />
+    <Property Name="OfficeNo" Type="nvarchar" MaxLength="10" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="RaceID" Type="int" Nullable="false" />
+    <Property Name="GenderID" Type="int" Nullable="false" />
+    <Property Name="AddressStreet" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressSuburb" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressCity" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressCode" Type="numeric" Precision="6" Scale="0" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="TermsAndConditions" Type="bit" />
+    <Property Name="ReviewContract" Type="bit" />
+    <Property Name="ReasonID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_AssociationRegion">
+    <Key>
+      <PropertyRef Name="AssociationRegionID" />
+    </Key>
+    <Property Name="AssociationRegionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AssociationID" Type="int" />
+    <Property Name="RegionID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_AssociationServiceArea">
+    <Key>
+      <PropertyRef Name="AssociationServiceAreaID" />
+    </Key>
+    <Property Name="AssociationServiceAreaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AssociationID" Type="int" />
+    <Property Name="RegionSAreaID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_AuditTrail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TableName" Type="nvarchar(max)" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Surname" Type="nvarchar(max)" />
+    <Property Name="Actions" Type="nvarchar(max)" />
+    <Property Name="OldData" Type="nvarchar(max)" />
+    <Property Name="NewData" Type="nvarchar(max)" />
+    <Property Name="ChangedColums" Type="nvarchar(max)" />
+    <Property Name="TableIdValue" Type="nvarchar(max)" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_Driver">
+    <Key>
+      <PropertyRef Name="DriverID" />
+    </Key>
+    <Property Name="DriverID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="100" />
+    <Property Name="IDNo" Type="nvarchar" MaxLength="13" Nullable="false" />
+    <Property Name="CalcBirthDate" Type="datetime" />
+    <Property Name="CellNo" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="OfficeNo" Type="nvarchar" MaxLength="10" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressStreet" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressSuburb" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressCity" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressCode" Type="nvarchar" MaxLength="6" />
+    <Property Name="DriverLicenseScanID" Type="int" />
+    <Property Name="LicenseCodeID" Type="int" />
+    <Property Name="LicenseExpiry" Type="datetime" />
+    <Property Name="PRDPScanID" Type="int" />
+    <Property Name="PRDPCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="PRDPExpiry" Type="datetime" />
+    <Property Name="EmploymentContract" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmploymentContractExpiry" Type="datetime" />
+    <Property Name="EmploymentContractScanID" Type="int" />
+    <Property Name="RecommendationLetterScanID" Type="int" />
+    <Property Name="CalcDriverNO" Type="nvarchar" MaxLength="50" />
+    <Property Name="TermsAndConditions" Type="bit" />
+    <Property Name="ReviewContract" Type="bit" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="GenderID" Type="int" />
+    <Property Name="RaceID" Type="int" />
+    <Property Name="OwnerID" Type="int" />
+    <Property Name="ReasonID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'GoDurban.dbo.tbl_DriverCount' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_DriverCount">
+    <Key>
+      <PropertyRef Name="org_process_id" />
+      <PropertyRef Name="seq_id" />
+      <PropertyRef Name="sys_timestamp" />
+    </Key>
+    <Property Name="org_process_id" Type="int" Nullable="false" />
+    <Property Name="seq_id" Type="int" Nullable="false" />
+    <Property Name="seq_name" Type="nvarchar" MaxLength="10" />
+    <Property Name="last_value" Type="bigint" />
+    <Property Name="month" Type="int" />
+    <Property Name="year" Type="int" />
+    <Property Name="sys_timestamp" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="inserted_user" Type="nvarchar" MaxLength="50" />
+    <Property Name="inserted_date" Type="datetime" />
+    <Property Name="updated_user" Type="nvarchar" MaxLength="50" />
+    <Property Name="updated_date" Type="datetime" />
+    <Property Name="hkey_id" Type="bigint" />
+  </EntityType>
+  <EntityType Name="tbl_Gender">
+    <Key>
+      <PropertyRef Name="GenderID" />
+    </Key>
+    <Property Name="GenderID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GenderDescription" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_LicenseCode">
+    <Key>
+      <PropertyRef Name="LicenseCodeID" />
+    </Key>
+    <Property Name="LicenseCodeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LicenseCode" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="LicenseCodeDescription" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_OperatingLicense">
+    <Key>
+      <PropertyRef Name="OperatingLicenseID" />
+    </Key>
+    <Property Name="OperatingLicenseID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OLCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="RouteCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tbl_Owner">
+    <Key>
+      <PropertyRef Name="OwnerID" />
+    </Key>
+    <Property Name="OwnerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="100" />
+    <Property Name="IDNo" Type="nvarchar" MaxLength="13" Nullable="false" />
+    <Property Name="CalcBirthDate" Type="date" />
+    <Property Name="CellNo" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="OfficeNo" Type="nvarchar" MaxLength="10" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressStreet" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressSuburb" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressCity" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressCode" Type="nvarchar" MaxLength="6" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="50" />
+    <Property Name="TermsAndConditions" Type="bit" />
+    <Property Name="ReviewContract" Type="bit" />
+    <Property Name="RaceID" Type="int" />
+    <Property Name="GenderID" Type="int" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="ReasonID" Type="int" />
+    <Property Name="AccountID" Type="int" />
+    <Property Name="PendingDriver" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_OwnerAssociation">
+    <Key>
+      <PropertyRef Name="OwnerAssociationID" />
+    </Key>
+    <Property Name="OwnerAssociationID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OwnerID" Type="int" />
+    <Property Name="AssociationID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_OwnerServiceArea">
+    <Key>
+      <PropertyRef Name="OwnerServiceAreaID" />
+    </Key>
+    <Property Name="OwnerServiceAreaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OwnerID" Type="int" />
+    <Property Name="AssociationServiceAreaID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'GoDurban.dbo.tbl_PaymentAmount' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_PaymentAmount">
+    <Key>
+      <PropertyRef Name="PaymentAmountID" />
+    </Key>
+    <Property Name="PaymentAmountID" Type="int" Nullable="false" />
+    <Property Name="Datetime" Type="datetime" />
+    <Property Name="Recipients" Type="nvarchar" MaxLength="50" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="tbl_Race">
+    <Key>
+      <PropertyRef Name="RaceID" />
+    </Key>
+    <Property Name="RaceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RaceDescription" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_Reason">
+    <Key>
+      <PropertyRef Name="ReasonID" />
+    </Key>
+    <Property Name="ReasonID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ReasonDescription" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_RegionalLeadership">
+    <Key>
+      <PropertyRef Name="RegionalLeaderID" />
+    </Key>
+    <Property Name="RegionalLeaderID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="IDNo" Type="nvarchar" MaxLength="13" />
+    <Property Name="Passport" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsPassport" Type="bit" />
+    <Property Name="CalcBirthDate" Type="date" />
+    <Property Name="CellNo" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="OfficeNo" Type="nvarchar" MaxLength="10" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="AddressStreet" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressSuburb" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressCity" Type="nvarchar" MaxLength="100" />
+    <Property Name="AddressCode" Type="nvarchar" MaxLength="6" />
+    <Property Name="TermsAndConditions" Type="bit" />
+    <Property Name="ReviewContract" Type="bit" />
+    <Property Name="RegionID" Type="int" />
+    <Property Name="GenderID" Type="int" Nullable="false" />
+    <Property Name="RaceID" Type="int" Nullable="false" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="ReasonID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_RegionServiceArea">
+    <Key>
+      <PropertyRef Name="RegionSAreaID" />
+    </Key>
+    <Property Name="RegionSAreaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RegionID" Type="int" />
+    <Property Name="ServiceAreaID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_Role">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleDescription" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_ServiceArea">
+    <Key>
+      <PropertyRef Name="ServiceAreaID" />
+    </Key>
+    <Property Name="ServiceAreaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceAreaDescription" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_Status">
+    <Key>
+      <PropertyRef Name="StatusID" />
+    </Key>
+    <Property Name="StatusID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusDescription" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserName" Type="nvarchar(max)" />
+    <Property Name="CellNo" Type="nvarchar" MaxLength="10" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="EmailConfirmed" Type="nvarchar(max)" />
+    <Property Name="IDNo" Type="nvarchar" MaxLength="13" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="PasswordConfirm" Type="nvarchar" MaxLength="50" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="TwoFactorEnabled" Type="bit" />
+    <Property Name="LockoutEnabled" Type="bit" />
+    <Property Name="AccessFailedCount" Type="int" />
+    <Property Name="FirstTimeLogin" Type="bit" />
+    <Property Name="DateCreated" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="IsSupervisor" Type="bit" />
+    <Property Name="UserRole" Type="nvarchar" MaxLength="50" />
+    <Property Name="RoleID" Type="int" />
+    <Property Name="RaceID" Type="int" />
+    <Property Name="GenderID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_UserPage">
+    <Key>
+      <PropertyRef Name="UserPageID" />
+    </Key>
+    <Property Name="UserPageID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="Association" Type="bit" />
+    <Property Name="AssociationL" Type="bit" />
+    <Property Name="AssociationR" Type="bit" />
+    <Property Name="AssociationSA" Type="bit" />
+    <Property Name="Owner" Type="bit" />
+    <Property Name="OwnerA" Type="bit" />
+    <Property Name="OwnerSA" Type="bit" />
+    <Property Name="Region" Type="bit" />
+    <Property Name="RegionL" Type="bit" />
+    <Property Name="RegionSA" Type="bit" />
+    <Property Name="Driver" Type="bit" />
+    <Property Name="Vehicle" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_Vehicle">
+    <Key>
+      <PropertyRef Name="VehicleID" />
+    </Key>
+    <Property Name="VehicleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NumberPlate" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="LastServiced" Type="datetime" />
+    <Property Name="YearRegistered" Type="nvarchar" MaxLength="4" />
+    <Property Name="EngineNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="VINNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="CORScanID" Type="bit" />
+    <Property Name="CORExpiry" Type="datetime" />
+    <Property Name="OperatingLicense" Type="nvarchar" MaxLength="100" />
+    <Property Name="OperatingLicenseExpiry" Type="datetime" />
+    <Property Name="VehicleAccreditation" Type="nvarchar" MaxLength="50" />
+    <Property Name="Year" Type="nvarchar" MaxLength="4" />
+    <Property Name="Capacity" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="OwnerID" Type="int" />
+    <Property Name="VehicleInfoID" Type="int" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="ReasonID" Type="int" />
+    <Property Name="PaymentAdded" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_VehicleInfo">
+    <Key>
+      <PropertyRef Name="VehicleInfoID" />
+    </Key>
+    <Property Name="VehicleInfoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Make" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Model" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Capacity" Type="nvarchar" MaxLength="5" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'GoDurban.dbo.v_Assoc' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="v_Assoc">
+          <Property Name="AssociationName" Type="nvarchar" MaxLength="50" />
+          <Property Name="StatusDescription" Type="nvarchar" MaxLength="20" />
+          <Property Name="RegionName" Type="nvarchar" MaxLength="500" />
+          <Property Name="P_amount" Type="int" />
+          <Property Name="TDate" Type="datetime" />
+          <Property Name="Date" Type="datetime" />
+          <Property Name="month_name" Type="varchar" MaxLength="50" />
+          <Property Name="IsPaymentSent" Type="nvarchar" MaxLength="10" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'GoDurban.dbo.V_details' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="V_details">
+    <Key>
+      <PropertyRef Name="accountid" />
+    </Key>
+    <Property Name="accountid" Type="int" Nullable="false" />
+    <Property Name="AccountName" Type="nvarchar(max)" />
+    <Property Name="AccountNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="regionid" Type="int" />
+    <Property Name="associationid" Type="int" />
+    <Property Name="OwnerID" Type="int" />
+    <Property Name="IDNo" Type="nvarchar" MaxLength="13" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsPaymentSent" Type="nvarchar" MaxLength="10" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="tDate" Type="date" />
+    <Property Name="month_name" Type="varchar" MaxLength="50" />
+    <Property Name="P_amount" Type="int" />
+    <Property Name="RegionName" Type="nvarchar" MaxLength="500" />
+    <Property Name="associationname" Type="nvarchar" MaxLength="50" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="NumberPlate" Type="nvarchar" MaxLength="20" />
+    <Property Name="cnt" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'GoDurban.dbo.v_drivers' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="v_drivers">
+    <Key>
+      <PropertyRef Name="ownerid" />
+      <PropertyRef Name="idno" />
+    </Key>
+    <Property Name="ownerid" Type="int" Nullable="false" />
+    <Property Name="idno" Type="nvarchar" MaxLength="13" Nullable="false" />
+    <Property Name="Oname" Type="nvarchar" MaxLength="100" />
+    <Property Name="Osurn" Type="nvarchar" MaxLength="100" />
+    <Property Name="RegionName" Type="nvarchar" MaxLength="500" />
+    <Property Name="associationname" Type="nvarchar" MaxLength="50" />
+    <Property Name="ldate" Type="datetime" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="100" />
+    <Property Name="DId" Type="nvarchar" MaxLength="13" />
+    <Property Name="statusid" Type="int" />
+    <Property Name="ReasonID" Type="int" />
+    <Property Name="DriverID" Type="int" />
+    <Property Name="ReasonDescription" Type="nvarchar(max)" />
+    <Property Name="StatusDescription" Type="nvarchar" MaxLength="20" />
+    <Property Name="LicenseCodeDescription" Type="nvarchar" MaxLength="100" />
+    <Property Name="LicenseExpiry" Type="datetime" />
+    <Property Name="edate" Type="date" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'GoDurban.dbo.v_license' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="v_license">
+    <Key>
+      <PropertyRef Name="LicenseCodeDescription" />
+    </Key>
+    <Property Name="LicenseCodeDescription" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="LicenseExpiry" Type="datetime" />
+    <Property Name="code" Type="nvarchar" MaxLength="50" />
+    <Property Name="DriverID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'GoDurban.dbo.v_owner' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="v_owner">
+    <Key>
+      <PropertyRef Name="OwnerID" />
+      <PropertyRef Name="IDNo" />
+    </Key>
+    <Property Name="OwnerID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="100" />
+    <Property Name="IDNo" Type="nvarchar" MaxLength="13" Nullable="false" />
+    <Property Name="AssociationName" Type="nvarchar" MaxLength="50" />
+    <Property Name="P_amount" Type="int" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="NumberPlate" Type="nvarchar" MaxLength="20" />
+    <Property Name="RegionName" Type="nvarchar" MaxLength="500" />
+    <Property Name="RegionID" Type="int" />
+    <Property Name="Pdate" Type="datetime" />
+    <Property Name="month_name" Type="varchar" MaxLength="50" />
+    <Property Name="IsPaymentSent" Type="nvarchar" MaxLength="10" />
+    <Property Name="accountno" Type="nvarchar" MaxLength="50" />
+    <Property Name="cnt" Type="int" />
+    <Property Name="Amt" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'GoDurban.dbo.v_region' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="v_region">
+    <Key>
+      <PropertyRef Name="Date" />
+    </Key>
+    <Property Name="regions" Type="nvarchar" MaxLength="500" />
+    <Property Name="IsPaymentSent" Type="nvarchar" MaxLength="10" />
+    <Property Name="P_amount" Type="int" />
+    <Property Name="TDate" Type="datetime" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="month_name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'GoDurban.dbo.V_vehicle' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="V_vehicle">
+    <Key>
+      <PropertyRef Name="ownerid" />
+      <PropertyRef Name="idno" />
+    </Key>
+    <Property Name="ownerid" Type="int" Nullable="false" />
+    <Property Name="idno" Type="nvarchar" MaxLength="13" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="surname" Type="nvarchar" MaxLength="100" />
+    <Property Name="RegionName" Type="nvarchar" MaxLength="500" />
+    <Property Name="associationname" Type="nvarchar" MaxLength="50" />
+    <Property Name="ldate" Type="datetime" />
+    <Property Name="NumberPlate" Type="nvarchar" MaxLength="20" />
+    <Property Name="statusid" Type="int" />
+    <Property Name="ReasonID" Type="int" />
+    <Property Name="LastServiced" Type="datetime" />
+    <Property Name="OperatingLicense" Type="nvarchar" MaxLength="100" />
+    <Property Name="OperatingLicenseExpiry" Type="datetime" />
+    <Property Name="ReasonDescription" Type="nvarchar(max)" />
+    <Property Name="StatusDescription" Type="nvarchar" MaxLength="20" />
+    <Property Name="edate" Type="date" />
+  </EntityType>
+  <Association Name="FK_Account_Bank">
+    <End Role="Bank" Type="Self.Bank" Multiplicity="0..1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bank">
+        <PropertyRef Name="BankID" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="BankID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Association_Account">
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <End Role="Association" Type="Self.Association" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="AccountID" />
+      </Principal>
+      <Dependent Role="Association">
+        <PropertyRef Name="AccountID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Association_tbl_Status">
+    <End Role="tbl_Status" Type="Self.tbl_Status" Multiplicity="0..1" />
+    <End Role="Association" Type="Self.Association" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Status">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="Association">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_Association">
+    <End Role="Association" Type="Self.Association" Multiplicity="0..1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Association">
+        <PropertyRef Name="AssociationID" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="AssociationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_Region">
+    <End Role="Region" Type="Self.Region" Multiplicity="0..1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="RegionID" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="RegionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_tbl_Owner">
+    <End Role="tbl_Owner" Type="Self.tbl_Owner" Multiplicity="0..1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Owner">
+        <PropertyRef Name="OwnerID" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="OwnerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Region_Account">
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <End Role="Region" Type="Self.Region" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="AccountID" />
+      </Principal>
+      <Dependent Role="Region">
+        <PropertyRef Name="AccountID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Region_tbl_Status">
+    <End Role="tbl_Status" Type="Self.tbl_Status" Multiplicity="0..1" />
+    <End Role="Region" Type="Self.Region" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Status">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="Region">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_AssociationLeadership_Association">
+    <End Role="Association" Type="Self.Association" Multiplicity="0..1" />
+    <End Role="tbl_AssociationLeadership" Type="Self.tbl_AssociationLeadership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Association">
+        <PropertyRef Name="AssociationID" />
+      </Principal>
+      <Dependent Role="tbl_AssociationLeadership">
+        <PropertyRef Name="AssociationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_AssociationLeadership_tbl_Gender">
+    <End Role="tbl_Gender" Type="Self.tbl_Gender" Multiplicity="1" />
+    <End Role="tbl_AssociationLeadership" Type="Self.tbl_AssociationLeadership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Gender">
+        <PropertyRef Name="GenderID" />
+      </Principal>
+      <Dependent Role="tbl_AssociationLeadership">
+        <PropertyRef Name="GenderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_AssociationLeadership_tbl_Race">
+    <End Role="tbl_Race" Type="Self.tbl_Race" Multiplicity="1" />
+    <End Role="tbl_AssociationLeadership" Type="Self.tbl_AssociationLeadership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Race">
+        <PropertyRef Name="RaceID" />
+      </Principal>
+      <Dependent Role="tbl_AssociationLeadership">
+        <PropertyRef Name="RaceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_AssociationLeadership_tbl_Reason">
+    <End Role="tbl_Reason" Type="Self.tbl_Reason" Multiplicity="0..1" />
+    <End Role="tbl_AssociationLeadership" Type="Self.tbl_AssociationLeadership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Reason">
+        <PropertyRef Name="ReasonID" />
+      </Principal>
+      <Dependent Role="tbl_AssociationLeadership">
+        <PropertyRef Name="ReasonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_AssociationLeadership_tbl_Status">
+    <End Role="tbl_Status" Type="Self.tbl_Status" Multiplicity="0..1" />
+    <End Role="tbl_AssociationLeadership" Type="Self.tbl_AssociationLeadership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Status">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="tbl_AssociationLeadership">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_AssociationRegion_Association">
+    <End Role="Association" Type="Self.Association" Multiplicity="0..1" />
+    <End Role="tbl_AssociationRegion" Type="Self.tbl_AssociationRegion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Association">
+        <PropertyRef Name="AssociationID" />
+      </Principal>
+      <Dependent Role="tbl_AssociationRegion">
+        <PropertyRef Name="AssociationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_AssociationRegion_Region">
+    <End Role="Region" Type="Self.Region" Multiplicity="0..1" />
+    <End Role="tbl_AssociationRegion" Type="Self.tbl_AssociationRegion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="RegionID" />
+      </Principal>
+      <Dependent Role="tbl_AssociationRegion">
+        <PropertyRef Name="RegionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_AssociationServiceArea_Association">
+    <End Role="Association" Type="Self.Association" Multiplicity="0..1" />
+    <End Role="tbl_AssociationServiceArea" Type="Self.tbl_AssociationServiceArea" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Association">
+        <PropertyRef Name="AssociationID" />
+      </Principal>
+      <Dependent Role="tbl_AssociationServiceArea">
+        <PropertyRef Name="AssociationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Driver_tbl_Gender">
+    <End Role="tbl_Gender" Type="Self.tbl_Gender" Multiplicity="0..1" />
+    <End Role="tbl_Driver" Type="Self.tbl_Driver" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Gender">
+        <PropertyRef Name="GenderID" />
+      </Principal>
+      <Dependent Role="tbl_Driver">
+        <PropertyRef Name="GenderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Driver_tbl_Race">
+    <End Role="tbl_Race" Type="Self.tbl_Race" Multiplicity="0..1" />
+    <End Role="tbl_Driver" Type="Self.tbl_Driver" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Race">
+        <PropertyRef Name="RaceID" />
+      </Principal>
+      <Dependent Role="tbl_Driver">
+        <PropertyRef Name="RaceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Driver_tbl_Reason">
+    <End Role="tbl_Reason" Type="Self.tbl_Reason" Multiplicity="0..1" />
+    <End Role="tbl_Driver" Type="Self.tbl_Driver" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Reason">
+        <PropertyRef Name="ReasonID" />
+      </Principal>
+      <Dependent Role="tbl_Driver">
+        <PropertyRef Name="ReasonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Driver_tbl_Status">
+    <End Role="tbl_Status" Type="Self.tbl_Status" Multiplicity="0..1" />
+    <End Role="tbl_Driver" Type="Self.tbl_Driver" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Status">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="tbl_Driver">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Owner_Account">
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <End Role="tbl_Owner" Type="Self.tbl_Owner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="AccountID" />
+      </Principal>
+      <Dependent Role="tbl_Owner">
+        <PropertyRef Name="AccountID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Owner_tbl_Gender">
+    <End Role="tbl_Gender" Type="Self.tbl_Gender" Multiplicity="0..1" />
+    <End Role="tbl_Owner" Type="Self.tbl_Owner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Gender">
+        <PropertyRef Name="GenderID" />
+      </Principal>
+      <Dependent Role="tbl_Owner">
+        <PropertyRef Name="GenderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Owner_tbl_Race">
+    <End Role="tbl_Race" Type="Self.tbl_Race" Multiplicity="0..1" />
+    <End Role="tbl_Owner" Type="Self.tbl_Owner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Race">
+        <PropertyRef Name="RaceID" />
+      </Principal>
+      <Dependent Role="tbl_Owner">
+        <PropertyRef Name="RaceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Owner_tbl_Reason">
+    <End Role="tbl_Reason" Type="Self.tbl_Reason" Multiplicity="0..1" />
+    <End Role="tbl_Owner" Type="Self.tbl_Owner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Reason">
+        <PropertyRef Name="ReasonID" />
+      </Principal>
+      <Dependent Role="tbl_Owner">
+        <PropertyRef Name="ReasonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Owner_tbl_Status">
+    <End Role="tbl_Status" Type="Self.tbl_Status" Multiplicity="0..1" />
+    <End Role="tbl_Owner" Type="Self.tbl_Owner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Status">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="tbl_Owner">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_OwnerAssociation_Association">
+    <End Role="Association" Type="Self.Association" Multiplicity="0..1" />
+    <End Role="tbl_OwnerAssociation" Type="Self.tbl_OwnerAssociation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Association">
+        <PropertyRef Name="AssociationID" />
+      </Principal>
+      <Dependent Role="tbl_OwnerAssociation">
+        <PropertyRef Name="AssociationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_OwnerAssociation_tbl_Owner">
+    <End Role="tbl_Owner" Type="Self.tbl_Owner" Multiplicity="0..1" />
+    <End Role="tbl_OwnerAssociation" Type="Self.tbl_OwnerAssociation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Owner">
+        <PropertyRef Name="OwnerID" />
+      </Principal>
+      <Dependent Role="tbl_OwnerAssociation">
+        <PropertyRef Name="OwnerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_OwnerServiceArea_tbl_AssociationServiceArea">
+    <End Role="tbl_AssociationServiceArea" Type="Self.tbl_AssociationServiceArea" Multiplicity="0..1" />
+    <End Role="tbl_OwnerServiceArea" Type="Self.tbl_OwnerServiceArea" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_AssociationServiceArea">
+        <PropertyRef Name="AssociationServiceAreaID" />
+      </Principal>
+      <Dependent Role="tbl_OwnerServiceArea">
+        <PropertyRef Name="AssociationServiceAreaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_OwnerServiceArea_tbl_Owner">
+    <End Role="tbl_Owner" Type="Self.tbl_Owner" Multiplicity="0..1" />
+    <End Role="tbl_OwnerServiceArea" Type="Self.tbl_OwnerServiceArea" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Owner">
+        <PropertyRef Name="OwnerID" />
+      </Principal>
+      <Dependent Role="tbl_OwnerServiceArea">
+        <PropertyRef Name="OwnerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_RegionalLeadership_Region">
+    <End Role="Region" Type="Self.Region" Multiplicity="0..1" />
+    <End Role="tbl_RegionalLeadership" Type="Self.tbl_RegionalLeadership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="RegionID" />
+      </Principal>
+      <Dependent Role="tbl_RegionalLeadership">
+        <PropertyRef Name="RegionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_RegionalLeadership_tbl_Gender">
+    <End Role="tbl_Gender" Type="Self.tbl_Gender" Multiplicity="1" />
+    <End Role="tbl_RegionalLeadership" Type="Self.tbl_RegionalLeadership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Gender">
+        <PropertyRef Name="GenderID" />
+      </Principal>
+      <Dependent Role="tbl_RegionalLeadership">
+        <PropertyRef Name="GenderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_RegionalLeadership_tbl_Race">
+    <End Role="tbl_Race" Type="Self.tbl_Race" Multiplicity="1" />
+    <End Role="tbl_RegionalLeadership" Type="Self.tbl_RegionalLeadership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Race">
+        <PropertyRef Name="RaceID" />
+      </Principal>
+      <Dependent Role="tbl_RegionalLeadership">
+        <PropertyRef Name="RaceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_RegionalLeadership_tbl_Reason">
+    <End Role="tbl_Reason" Type="Self.tbl_Reason" Multiplicity="0..1" />
+    <End Role="tbl_RegionalLeadership" Type="Self.tbl_RegionalLeadership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Reason">
+        <PropertyRef Name="ReasonID" />
+      </Principal>
+      <Dependent Role="tbl_RegionalLeadership">
+        <PropertyRef Name="ReasonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_RegionalLeadership_tbl_Status">
+    <End Role="tbl_Status" Type="Self.tbl_Status" Multiplicity="0..1" />
+    <End Role="tbl_RegionalLeadership" Type="Self.tbl_RegionalLeadership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Status">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="tbl_RegionalLeadership">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_RegionServiceArea_Region">
+    <End Role="Region" Type="Self.Region" Multiplicity="0..1" />
+    <End Role="tbl_RegionServiceArea" Type="Self.tbl_RegionServiceArea" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="RegionID" />
+      </Principal>
+      <Dependent Role="tbl_RegionServiceArea">
+        <PropertyRef Name="RegionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_RegionServiceArea_tbl_ServiceArea">
+    <End Role="tbl_ServiceArea" Type="Self.tbl_ServiceArea" Multiplicity="0..1" />
+    <End Role="tbl_RegionServiceArea" Type="Self.tbl_RegionServiceArea" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_ServiceArea">
+        <PropertyRef Name="ServiceAreaID" />
+      </Principal>
+      <Dependent Role="tbl_RegionServiceArea">
+        <PropertyRef Name="ServiceAreaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_User_tbl_Gender">
+    <End Role="tbl_Gender" Type="Self.tbl_Gender" Multiplicity="0..1" />
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Gender">
+        <PropertyRef Name="GenderID" />
+      </Principal>
+      <Dependent Role="tbl_User">
+        <PropertyRef Name="GenderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_User_tbl_Race">
+    <End Role="tbl_Race" Type="Self.tbl_Race" Multiplicity="0..1" />
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Race">
+        <PropertyRef Name="RaceID" />
+      </Principal>
+      <Dependent Role="tbl_User">
+        <PropertyRef Name="RaceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_User_tbl_Role">
+    <End Role="tbl_Role" Type="Self.tbl_Role" Multiplicity="0..1" />
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="tbl_User">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_UserPage_tbl_User">
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="0..1" />
+    <End Role="tbl_UserPage" Type="Self.tbl_UserPage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="tbl_UserPage">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Vehicle_tbl_Owner">
+    <End Role="tbl_Owner" Type="Self.tbl_Owner" Multiplicity="0..1" />
+    <End Role="tbl_Vehicle" Type="Self.tbl_Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Owner">
+        <PropertyRef Name="OwnerID" />
+      </Principal>
+      <Dependent Role="tbl_Vehicle">
+        <PropertyRef Name="OwnerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Vehicle_tbl_Reason">
+    <End Role="tbl_Reason" Type="Self.tbl_Reason" Multiplicity="0..1" />
+    <End Role="tbl_Vehicle" Type="Self.tbl_Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Reason">
+        <PropertyRef Name="ReasonID" />
+      </Principal>
+      <Dependent Role="tbl_Vehicle">
+        <PropertyRef Name="ReasonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Vehicle_tbl_Status">
+    <End Role="tbl_Status" Type="Self.tbl_Status" Multiplicity="0..1" />
+    <End Role="tbl_Vehicle" Type="Self.tbl_Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Status">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="tbl_Vehicle">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Vehicle_tbl_VehicleInfo">
+    <End Role="tbl_VehicleInfo" Type="Self.tbl_VehicleInfo" Multiplicity="0..1" />
+    <End Role="tbl_Vehicle" Type="Self.tbl_Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_VehicleInfo">
+        <PropertyRef Name="VehicleInfoID" />
+      </Principal>
+      <Dependent Role="tbl_Vehicle">
+        <PropertyRef Name="VehicleInfoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="CheckVoid" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_Batch" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="seq_name" Type="nvarchar" Mode="In" />
+    <Parameter Name="case_desc" Type="nvarchar" Mode="InOut" />
+  </Function>
+  <Function Name="sp_Count" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="seq_name" Type="nvarchar" Mode="In" />
+    <Parameter Name="case_desc" Type="nvarchar" Mode="InOut" />
+  </Function>
+  <Function Name="sp_DOC_Count" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="seq_name" Type="nvarchar" Mode="In" />
+    <Parameter Name="case_desc" Type="nvarchar" Mode="InOut" />
+  </Function>
+  <Function Name="sp_DOC_LN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="seq_name" Type="nvarchar" Mode="In" />
+    <Parameter Name="case_desc" Type="nvarchar" Mode="InOut" />
+  </Function>
+  <Function Name="sp_get" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="AcountID" Type="int" Mode="InOut" />
+  </Function>
+  <EntityContainer Name="GoDurbanModelStoreContainer">
+    <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Association" EntityType="Self.Association" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Bank" EntityType="Self.Bank" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dates" EntityType="Self.Dates" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NoOfClicksPerMonth" EntityType="Self.NoOfClicksPerMonth" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Payment" EntityType="Self.Payment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Region" EntityType="Self.Region" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_AssociationLeadership" EntityType="Self.tbl_AssociationLeadership" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_AssociationRegion" EntityType="Self.tbl_AssociationRegion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_AssociationServiceArea" EntityType="Self.tbl_AssociationServiceArea" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_AuditTrail" EntityType="Self.tbl_AuditTrail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Driver" EntityType="Self.tbl_Driver" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Gender" EntityType="Self.tbl_Gender" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_LicenseCode" EntityType="Self.tbl_LicenseCode" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_OperatingLicense" EntityType="Self.tbl_OperatingLicense" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Owner" EntityType="Self.tbl_Owner" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_OwnerAssociation" EntityType="Self.tbl_OwnerAssociation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_OwnerServiceArea" EntityType="Self.tbl_OwnerServiceArea" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Race" EntityType="Self.tbl_Race" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Reason" EntityType="Self.tbl_Reason" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_RegionalLeadership" EntityType="Self.tbl_RegionalLeadership" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_RegionServiceArea" EntityType="Self.tbl_RegionServiceArea" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Role" EntityType="Self.tbl_Role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ServiceArea" EntityType="Self.tbl_ServiceArea" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Status" EntityType="Self.tbl_Status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_User" EntityType="Self.tbl_User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_UserPage" EntityType="Self.tbl_UserPage" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Vehicle" EntityType="Self.tbl_Vehicle" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_VehicleInfo" EntityType="Self.tbl_VehicleInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="data" EntityType="Self.data" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [data].[AssociationID] AS [AssociationID], 
+    [data].[AssociationName] AS [AssociationName], 
+    [data].[AssociationNo] AS [AssociationNo]
+    FROM [dbo].[data] AS [data]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_DriverCount" EntityType="Self.tbl_DriverCount" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_DriverCount].[org_process_id] AS [org_process_id], 
+    [tbl_DriverCount].[seq_id] AS [seq_id], 
+    [tbl_DriverCount].[seq_name] AS [seq_name], 
+    [tbl_DriverCount].[last_value] AS [last_value], 
+    [tbl_DriverCount].[month] AS [month], 
+    [tbl_DriverCount].[year] AS [year], 
+    [tbl_DriverCount].[sys_timestamp] AS [sys_timestamp], 
+    [tbl_DriverCount].[inserted_user] AS [inserted_user], 
+    [tbl_DriverCount].[inserted_date] AS [inserted_date], 
+    [tbl_DriverCount].[updated_user] AS [updated_user], 
+    [tbl_DriverCount].[updated_date] AS [updated_date], 
+    [tbl_DriverCount].[hkey_id] AS [hkey_id]
+    FROM [dbo].[tbl_DriverCount] AS [tbl_DriverCount]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_PaymentAmount" EntityType="Self.tbl_PaymentAmount" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_PaymentAmount].[PaymentAmountID] AS [PaymentAmountID], 
+    [tbl_PaymentAmount].[Datetime] AS [Datetime], 
+    [tbl_PaymentAmount].[Recipients] AS [Recipients], 
+    [tbl_PaymentAmount].[Amount] AS [Amount]
+    FROM [dbo].[tbl_PaymentAmount] AS [tbl_PaymentAmount]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="V_details" EntityType="Self.V_details" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [V_details].[accountid] AS [accountid], 
+    [V_details].[AccountName] AS [AccountName], 
+    [V_details].[AccountNo] AS [AccountNo], 
+    [V_details].[regionid] AS [regionid], 
+    [V_details].[associationid] AS [associationid], 
+    [V_details].[OwnerID] AS [OwnerID], 
+    [V_details].[IDNo] AS [IDNo], 
+    [V_details].[Name] AS [Name], 
+    [V_details].[Surname] AS [Surname], 
+    [V_details].[IsPaymentSent] AS [IsPaymentSent], 
+    [V_details].[Date] AS [Date], 
+    [V_details].[tDate] AS [tDate], 
+    [V_details].[month_name] AS [month_name], 
+    [V_details].[P_amount] AS [P_amount], 
+    [V_details].[RegionName] AS [RegionName], 
+    [V_details].[associationname] AS [associationname], 
+    [V_details].[StatusID] AS [StatusID], 
+    [V_details].[NumberPlate] AS [NumberPlate], 
+    [V_details].[cnt] AS [cnt]
+    FROM [dbo].[V_details] AS [V_details]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="v_drivers" EntityType="Self.v_drivers" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [v_drivers].[ownerid] AS [ownerid], 
+    [v_drivers].[idno] AS [idno], 
+    [v_drivers].[Oname] AS [Oname], 
+    [v_drivers].[Osurn] AS [Osurn], 
+    [v_drivers].[RegionName] AS [RegionName], 
+    [v_drivers].[associationname] AS [associationname], 
+    [v_drivers].[ldate] AS [ldate], 
+    [v_drivers].[Name] AS [Name], 
+    [v_drivers].[Surname] AS [Surname], 
+    [v_drivers].[DId] AS [DId], 
+    [v_drivers].[statusid] AS [statusid], 
+    [v_drivers].[ReasonID] AS [ReasonID], 
+    [v_drivers].[DriverID] AS [DriverID], 
+    [v_drivers].[ReasonDescription] AS [ReasonDescription], 
+    [v_drivers].[StatusDescription] AS [StatusDescription], 
+    [v_drivers].[LicenseCodeDescription] AS [LicenseCodeDescription], 
+    [v_drivers].[LicenseExpiry] AS [LicenseExpiry], 
+    [v_drivers].[edate] AS [edate]
+    FROM [dbo].[v_drivers] AS [v_drivers]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="v_license" EntityType="Self.v_license" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [v_license].[LicenseCodeDescription] AS [LicenseCodeDescription], 
+    [v_license].[LicenseExpiry] AS [LicenseExpiry], 
+    [v_license].[code] AS [code], 
+    [v_license].[DriverID] AS [DriverID]
+    FROM [dbo].[v_license] AS [v_license]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="v_owner" EntityType="Self.v_owner" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [v_owner].[OwnerID] AS [OwnerID], 
+    [v_owner].[Name] AS [Name], 
+    [v_owner].[Surname] AS [Surname], 
+    [v_owner].[IDNo] AS [IDNo], 
+    [v_owner].[AssociationName] AS [AssociationName], 
+    [v_owner].[P_amount] AS [P_amount], 
+    [v_owner].[Date] AS [Date], 
+    [v_owner].[NumberPlate] AS [NumberPlate], 
+    [v_owner].[RegionName] AS [RegionName], 
+    [v_owner].[RegionID] AS [RegionID], 
+    [v_owner].[Pdate] AS [Pdate], 
+    [v_owner].[month_name] AS [month_name], 
+    [v_owner].[IsPaymentSent] AS [IsPaymentSent], 
+    [v_owner].[accountno] AS [accountno], 
+    [v_owner].[cnt] AS [cnt], 
+    [v_owner].[Amt] AS [Amt]
+    FROM [dbo].[v_owner] AS [v_owner]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="v_region" EntityType="Self.v_region" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [v_region].[regions] AS [regions], 
+    [v_region].[IsPaymentSent] AS [IsPaymentSent], 
+    [v_region].[P_amount] AS [P_amount], 
+    [v_region].[TDate] AS [TDate], 
+    [v_region].[Date] AS [Date], 
+    [v_region].[month_name] AS [month_name]
+    FROM [dbo].[v_region] AS [v_region]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="V_vehicle" EntityType="Self.V_vehicle" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [V_vehicle].[ownerid] AS [ownerid], 
+    [V_vehicle].[idno] AS [idno], 
+    [V_vehicle].[Name] AS [Name], 
+    [V_vehicle].[surname] AS [surname], 
+    [V_vehicle].[RegionName] AS [RegionName], 
+    [V_vehicle].[associationname] AS [associationname], 
+    [V_vehicle].[ldate] AS [ldate], 
+    [V_vehicle].[NumberPlate] AS [NumberPlate], 
+    [V_vehicle].[statusid] AS [statusid], 
+    [V_vehicle].[ReasonID] AS [ReasonID], 
+    [V_vehicle].[LastServiced] AS [LastServiced], 
+    [V_vehicle].[OperatingLicense] AS [OperatingLicense], 
+    [V_vehicle].[OperatingLicenseExpiry] AS [OperatingLicenseExpiry], 
+    [V_vehicle].[ReasonDescription] AS [ReasonDescription], 
+    [V_vehicle].[StatusDescription] AS [StatusDescription], 
+    [V_vehicle].[edate] AS [edate]
+    FROM [dbo].[V_vehicle] AS [V_vehicle]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Account_Bank" Association="Self.FK_Account_Bank">
+      <End Role="Bank" EntitySet="Bank" />
+      <End Role="Account" EntitySet="Account" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Association_Account" Association="Self.FK_Association_Account">
+      <End Role="Account" EntitySet="Account" />
+      <End Role="Association" EntitySet="Association" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Association_tbl_Status" Association="Self.FK_Association_tbl_Status">
+      <End Role="tbl_Status" EntitySet="tbl_Status" />
+      <End Role="Association" EntitySet="Association" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_Association" Association="Self.FK_Payment_Association">
+      <End Role="Association" EntitySet="Association" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_Region" Association="Self.FK_Payment_Region">
+      <End Role="Region" EntitySet="Region" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_tbl_Owner" Association="Self.FK_Payment_tbl_Owner">
+      <End Role="tbl_Owner" EntitySet="tbl_Owner" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Region_Account" Association="Self.FK_Region_Account">
+      <End Role="Account" EntitySet="Account" />
+      <End Role="Region" EntitySet="Region" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Region_tbl_Status" Association="Self.FK_Region_tbl_Status">
+      <End Role="tbl_Status" EntitySet="tbl_Status" />
+      <End Role="Region" EntitySet="Region" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_AssociationLeadership_Association" Association="Self.FK_tbl_AssociationLeadership_Association">
+      <End Role="Association" EntitySet="Association" />
+      <End Role="tbl_AssociationLeadership" EntitySet="tbl_AssociationLeadership" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_AssociationLeadership_tbl_Gender" Association="Self.FK_tbl_AssociationLeadership_tbl_Gender">
+      <End Role="tbl_Gender" EntitySet="tbl_Gender" />
+      <End Role="tbl_AssociationLeadership" EntitySet="tbl_AssociationLeadership" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_AssociationLeadership_tbl_Race" Association="Self.FK_tbl_AssociationLeadership_tbl_Race">
+      <End Role="tbl_Race" EntitySet="tbl_Race" />
+      <End Role="tbl_AssociationLeadership" EntitySet="tbl_AssociationLeadership" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_AssociationLeadership_tbl_Reason" Association="Self.FK_tbl_AssociationLeadership_tbl_Reason">
+      <End Role="tbl_Reason" EntitySet="tbl_Reason" />
+      <End Role="tbl_AssociationLeadership" EntitySet="tbl_AssociationLeadership" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_AssociationLeadership_tbl_Status" Association="Self.FK_tbl_AssociationLeadership_tbl_Status">
+      <End Role="tbl_Status" EntitySet="tbl_Status" />
+      <End Role="tbl_AssociationLeadership" EntitySet="tbl_AssociationLeadership" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_AssociationRegion_Association" Association="Self.FK_tbl_AssociationRegion_Association">
+      <End Role="Association" EntitySet="Association" />
+      <End Role="tbl_AssociationRegion" EntitySet="tbl_AssociationRegion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_AssociationRegion_Region" Association="Self.FK_tbl_AssociationRegion_Region">
+      <End Role="Region" EntitySet="Region" />
+      <End Role="tbl_AssociationRegion" EntitySet="tbl_AssociationRegion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_AssociationServiceArea_Association" Association="Self.FK_tbl_AssociationServiceArea_Association">
+      <End Role="Association" EntitySet="Association" />
+      <End Role="tbl_AssociationServiceArea" EntitySet="tbl_AssociationServiceArea" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Driver_tbl_Gender" Association="Self.FK_tbl_Driver_tbl_Gender">
+      <End Role="tbl_Gender" EntitySet="tbl_Gender" />
+      <End Role="tbl_Driver" EntitySet="tbl_Driver" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Driver_tbl_Race" Association="Self.FK_tbl_Driver_tbl_Race">
+      <End Role="tbl_Race" EntitySet="tbl_Race" />
+      <End Role="tbl_Driver" EntitySet="tbl_Driver" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Driver_tbl_Reason" Association="Self.FK_tbl_Driver_tbl_Reason">
+      <End Role="tbl_Reason" EntitySet="tbl_Reason" />
+      <End Role="tbl_Driver" EntitySet="tbl_Driver" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Driver_tbl_Status" Association="Self.FK_tbl_Driver_tbl_Status">
+      <End Role="tbl_Status" EntitySet="tbl_Status" />
+      <End Role="tbl_Driver" EntitySet="tbl_Driver" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Owner_Account" Association="Self.FK_tbl_Owner_Account">
+      <End Role="Account" EntitySet="Account" />
+      <End Role="tbl_Owner" EntitySet="tbl_Owner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Owner_tbl_Gender" Association="Self.FK_tbl_Owner_tbl_Gender">
+      <End Role="tbl_Gender" EntitySet="tbl_Gender" />
+      <End Role="tbl_Owner" EntitySet="tbl_Owner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Owner_tbl_Race" Association="Self.FK_tbl_Owner_tbl_Race">
+      <End Role="tbl_Race" EntitySet="tbl_Race" />
+      <End Role="tbl_Owner" EntitySet="tbl_Owner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Owner_tbl_Reason" Association="Self.FK_tbl_Owner_tbl_Reason">
+      <End Role="tbl_Reason" EntitySet="tbl_Reason" />
+      <End Role="tbl_Owner" EntitySet="tbl_Owner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Owner_tbl_Status" Association="Self.FK_tbl_Owner_tbl_Status">
+      <End Role="tbl_Status" EntitySet="tbl_Status" />
+      <End Role="tbl_Owner" EntitySet="tbl_Owner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_OwnerAssociation_Association" Association="Self.FK_tbl_OwnerAssociation_Association">
+      <End Role="Association" EntitySet="Association" />
+      <End Role="tbl_OwnerAssociation" EntitySet="tbl_OwnerAssociation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_OwnerAssociation_tbl_Owner" Association="Self.FK_tbl_OwnerAssociation_tbl_Owner">
+      <End Role="tbl_Owner" EntitySet="tbl_Owner" />
+      <End Role="tbl_OwnerAssociation" EntitySet="tbl_OwnerAssociation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_OwnerServiceArea_tbl_AssociationServiceArea" Association="Self.FK_tbl_OwnerServiceArea_tbl_AssociationServiceArea">
+      <End Role="tbl_AssociationServiceArea" EntitySet="tbl_AssociationServiceArea" />
+      <End Role="tbl_OwnerServiceArea" EntitySet="tbl_OwnerServiceArea" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_OwnerServiceArea_tbl_Owner" Association="Self.FK_tbl_OwnerServiceArea_tbl_Owner">
+      <End Role="tbl_Owner" EntitySet="tbl_Owner" />
+      <End Role="tbl_OwnerServiceArea" EntitySet="tbl_OwnerServiceArea" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_RegionalLeadership_Region" Association="Self.FK_tbl_RegionalLeadership_Region">
+      <End Role="Region" EntitySet="Region" />
+      <End Role="tbl_RegionalLeadership" EntitySet="tbl_RegionalLeadership" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_RegionalLeadership_tbl_Gender" Association="Self.FK_tbl_RegionalLeadership_tbl_Gender">
+      <End Role="tbl_Gender" EntitySet="tbl_Gender" />
+      <End Role="tbl_RegionalLeadership" EntitySet="tbl_RegionalLeadership" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_RegionalLeadership_tbl_Race" Association="Self.FK_tbl_RegionalLeadership_tbl_Race">
+      <End Role="tbl_Race" EntitySet="tbl_Race" />
+      <End Role="tbl_RegionalLeadership" EntitySet="tbl_RegionalLeadership" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_RegionalLeadership_tbl_Reason" Association="Self.FK_tbl_RegionalLeadership_tbl_Reason">
+      <End Role="tbl_Reason" EntitySet="tbl_Reason" />
+      <End Role="tbl_RegionalLeadership" EntitySet="tbl_RegionalLeadership" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_RegionalLeadership_tbl_Status" Association="Self.FK_tbl_RegionalLeadership_tbl_Status">
+      <End Role="tbl_Status" EntitySet="tbl_Status" />
+      <End Role="tbl_RegionalLeadership" EntitySet="tbl_RegionalLeadership" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_RegionServiceArea_Region" Association="Self.FK_tbl_RegionServiceArea_Region">
+      <End Role="Region" EntitySet="Region" />
+      <End Role="tbl_RegionServiceArea" EntitySet="tbl_RegionServiceArea" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_RegionServiceArea_tbl_ServiceArea" Association="Self.FK_tbl_RegionServiceArea_tbl_ServiceArea">
+      <End Role="tbl_ServiceArea" EntitySet="tbl_ServiceArea" />
+      <End Role="tbl_RegionServiceArea" EntitySet="tbl_RegionServiceArea" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_User_tbl_Gender" Association="Self.FK_tbl_User_tbl_Gender">
+      <End Role="tbl_Gender" EntitySet="tbl_Gender" />
+      <End Role="tbl_User" EntitySet="tbl_User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_User_tbl_Race" Association="Self.FK_tbl_User_tbl_Race">
+      <End Role="tbl_Race" EntitySet="tbl_Race" />
+      <End Role="tbl_User" EntitySet="tbl_User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_User_tbl_Role" Association="Self.FK_tbl_User_tbl_Role">
+      <End Role="tbl_Role" EntitySet="tbl_Role" />
+      <End Role="tbl_User" EntitySet="tbl_User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_UserPage_tbl_User" Association="Self.FK_tbl_UserPage_tbl_User">
+      <End Role="tbl_User" EntitySet="tbl_User" />
+      <End Role="tbl_UserPage" EntitySet="tbl_UserPage" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Vehicle_tbl_Owner" Association="Self.FK_tbl_Vehicle_tbl_Owner">
+      <End Role="tbl_Owner" EntitySet="tbl_Owner" />
+      <End Role="tbl_Vehicle" EntitySet="tbl_Vehicle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Vehicle_tbl_Reason" Association="Self.FK_tbl_Vehicle_tbl_Reason">
+      <End Role="tbl_Reason" EntitySet="tbl_Reason" />
+      <End Role="tbl_Vehicle" EntitySet="tbl_Vehicle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Vehicle_tbl_Status" Association="Self.FK_tbl_Vehicle_tbl_Status">
+      <End Role="tbl_Status" EntitySet="tbl_Status" />
+      <End Role="tbl_Vehicle" EntitySet="tbl_Vehicle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Vehicle_tbl_VehicleInfo" Association="Self.FK_tbl_Vehicle_tbl_VehicleInfo">
+      <End Role="tbl_VehicleInfo" EntitySet="tbl_VehicleInfo" />
+      <End Role="tbl_Vehicle" EntitySet="tbl_Vehicle" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

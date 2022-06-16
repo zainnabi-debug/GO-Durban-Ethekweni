@@ -1,0 +1,209 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="GoDurban.Site1" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Go!Durban&trade; </title>
+
+    <link rel="shortcut icon" type="image/y-icon" href="../favicon.ico" />
+
+    <link rel="shortcut icon" href="~/images/godurban.PNG">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Go Durban, Taxi, Cab" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- bootstrap-css -->
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!--// bootstrap-css -->
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+    <!--// css -->
+    <!-- font-awesome icons -->
+    <link href="../css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+    <!-- gallery -->
+    <link href='../css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+    <!-- //gallery -->
+    <!-- font -->
+    <link href="//fonts.googleapis.com/css?family=Arvo:400,400i,700,700i" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <!-- //font -->
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+    <script src="vendor1/datatables/js/dataTables.bootstrap.js"></script>
+
+    <script type="text/javascript">
+
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+
+
+
+        $('.link > a').click(function () {
+            $('.active').removeClass('active');
+            $(this).addClass('active');
+        });
+
+        //active links
+        $('.submenu > li').click(function () {
+            $('.active').removeClass('active');
+            $(this).addClass('active');
+            $(this).parent('ul').prev('a').addClass('active');
+
+        });
+
+    </script>
+
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+
+    <%-- <link href="css/dropdown-menu.css" rel="stylesheet" />--%>
+
+    <link href="css/sidebar.css" rel="stylesheet" />
+
+    <style type="text/css">
+        .w3layouts-logo {
+            height: 100px;
+        }
+
+        body {
+            font-family: Verdana;
+        }
+
+
+        /*active links*/
+        ul a {
+            cursor: pointer;
+        }
+
+        .active {
+            color: red;
+        }
+
+
+        /*img {background-size:100% 100%;
+             height:auto;
+             width:100%;
+             background-repeat:no-repeat;
+        }*/
+    </style>
+
+</head>
+<body>
+    <form runat="server">
+        <!-- banner -->
+
+        <div class="w3-header-bottom navbar-fixed-top">
+            <div class="w3layouts-logo">
+                <h1>
+                    <img src="../images/godurban.PNG" style="width: 160px; height: 115px; margin-top: -20px; margin-bottom: -50px;" alt="" />
+                </h1>
+            </div>
+
+            <div class="top-nav">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <%--<li class="link"><a href="~/PL/Register" id="Register" runat="server">Register</a></li>--%>
+                            <li class="link"><a href="~/PL/Login" id="Login" runat="server"></a></li>
+                            <li class="link" id="lstChangedPassword" style="visibility: hidden" runat="server"><a href="~/PL/ChangePassword" id="ChangePassword" runat="server"></a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </nav>
+            </div>
+
+
+            <div class="agileinfo-social-grids">
+                <img src="../images/moja.PNG" style="height: 100px; width: 200px; margin-top: -20px;" />
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div class="container">
+            <div id="page-wrapper">
+                <div class="row">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+
+        </div>
+        <!-- //banner -->
+
+
+        <br />
+        <br />
+        <br />
+        <!-- footer -->
+        <footer>
+            <div class="copy-right-grids">
+                <div class="container">
+                    <div class="copy-left">
+                        <p class="footer-gd">© 2017 Go!Durban&trade;. All Rights Reserved.</p>
+                    </div>
+                    <%--<div class="clearfix"></div>--%>
+                </div>
+            </div>
+        </footer>
+        <!-- //footer -->
+
+        <script src="../js/responsiveslides.min.js"></script>
+        <script src="../js/jarallax.js"></script>
+        <script src="../js/SmoothScroll.min.js"></script>
+        <script type="text/javascript">
+            /* init Jarallax */
+            $('.jarallax').jarallax({
+                speed: 0.5,
+                imgWidth: 1366,
+                imgHeight: 768
+            })
+        </script>
+
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <!-- here stars scrolling icon -->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                /*
+                    var defaults = {
+                    containerID: 'toTop', // fading element id
+                    containerHoverID: 'toTopHover', // fading element hover id
+                    scrollSpeed: 1200,
+                    easingType: 'linear' 
+                    };
+                */
+
+                $().UItoTop({ easingType: 'easeOutQuart' });
+
+            });
+        </script>
+        <!-- //here ends scrolling icon -->
+
+    </form>
+</body>
+</html>

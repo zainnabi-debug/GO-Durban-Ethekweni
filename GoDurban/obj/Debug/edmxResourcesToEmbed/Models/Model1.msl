@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GoDurbanModelStoreContainer" CdmEntityContainer="GoDurbanEntities">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="GoDurbanModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+          <ScalarProperty Name="AccountNo" ColumnName="AccountNo" />
+          <ScalarProperty Name="BankID" ColumnName="BankID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Associations">
+      <EntityTypeMapping TypeName="GoDurbanModel.Association">
+        <MappingFragment StoreEntitySet="Association">
+          <ScalarProperty Name="AssociationID" ColumnName="AssociationID" />
+          <ScalarProperty Name="AssociationName" ColumnName="AssociationName" />
+          <ScalarProperty Name="AssociationNo" ColumnName="AssociationNo" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Banks">
+      <EntityTypeMapping TypeName="GoDurbanModel.Bank">
+        <MappingFragment StoreEntitySet="Bank">
+          <ScalarProperty Name="BankID" ColumnName="BankID" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dates">
+      <EntityTypeMapping TypeName="GoDurbanModel.Date">
+        <MappingFragment StoreEntitySet="Dates">
+          <ScalarProperty Name="DateID" ColumnName="DateID" />
+          <ScalarProperty Name="Date1" ColumnName="Date" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="Day" ColumnName="Day" />
+          <ScalarProperty Name="QuarterNumber" ColumnName="QuarterNumber" />
+          <ScalarProperty Name="keydate" ColumnName="keydate" />
+          <ScalarProperty Name="month_name" ColumnName="month_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NoOfClicksPerMonths">
+      <EntityTypeMapping TypeName="GoDurbanModel.NoOfClicksPerMonth">
+        <MappingFragment StoreEntitySet="NoOfClicksPerMonth">
+          <ScalarProperty Name="NoOfClicksID" ColumnName="NoOfClicksID" />
+          <ScalarProperty Name="IsPaymentSent" ColumnName="IsPaymentSent" />
+          <ScalarProperty Name="MonthClicked" ColumnName="MonthClicked" />
+          <ScalarProperty Name="ColumnName" ColumnName="ColumnName" />
+          <ScalarProperty Name="RangeDate" ColumnName="RangeDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="GoDurbanModel.Payment">
+        <MappingFragment StoreEntitySet="Payment">
+          <ScalarProperty Name="PaymentID" ColumnName="PaymentID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TransNo" ColumnName="TransNo" />
+          <ScalarProperty Name="LineNo" ColumnName="LineNo" />
+          <ScalarProperty Name="BatchNo" ColumnName="BatchNo" />
+          <ScalarProperty Name="DocTy" ColumnName="DocTy" />
+          <ScalarProperty Name="SP" ColumnName="SP" />
+          <ScalarProperty Name="STSCD" ColumnName="STSCD" />
+          <ScalarProperty Name="LongAddress" ColumnName="LongAddress" />
+          <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+          <ScalarProperty Name="AccountNo" ColumnName="AccountNo" />
+          <ScalarProperty Name="IDIssuer" ColumnName="IDIssuer" />
+          <ScalarProperty Name="ID1Code" ColumnName="ID1Code" />
+          <ScalarProperty Name="TaxID" ColumnName="TaxID" />
+          <ScalarProperty Name="PhoneNo" ColumnName="PhoneNo" />
+          <ScalarProperty Name="AddressLine1" ColumnName="AddressLine1" />
+          <ScalarProperty Name="AddressLine2" ColumnName="AddressLine2" />
+          <ScalarProperty Name="AddressLine3" ColumnName="AddressLine3" />
+          <ScalarProperty Name="AddressLine4" ColumnName="AddressLine4" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="DocNo" ColumnName="DocNo" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="AddressNo" ColumnName="AddressNo" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="BankTransit" ColumnName="BankTransit" />
+          <ScalarProperty Name="BankAccNo" ColumnName="BankAccNo" />
+          <ScalarProperty Name="IsPaymentSent" ColumnName="IsPaymentSent" />
+          <ScalarProperty Name="VoidedPayment" ColumnName="VoidedPayment" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+          <ScalarProperty Name="AssociationID" ColumnName="AssociationID" />
+          <ScalarProperty Name="EntityType" ColumnName="EntityType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Regions">
+      <EntityTypeMapping TypeName="GoDurbanModel.Region">
+        <MappingFragment StoreEntitySet="Region">
+          <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+          <ScalarProperty Name="RegionName" ColumnName="RegionName" />
+          <ScalarProperty Name="RegionNo" ColumnName="RegionNo" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_AssociationLeadership">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_AssociationLeadership">
+        <MappingFragment StoreEntitySet="tbl_AssociationLeadership">
+          <ScalarProperty Name="AssociationLeaderID" ColumnName="AssociationLeaderID" />
+          <ScalarProperty Name="AssociationID" ColumnName="AssociationID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="IDNo" ColumnName="IDNo" />
+          <ScalarProperty Name="Passport" ColumnName="Passport" />
+          <ScalarProperty Name="IsPassport" ColumnName="IsPassport" />
+          <ScalarProperty Name="CalcBirthDate" ColumnName="CalcBirthDate" />
+          <ScalarProperty Name="CellNo" ColumnName="CellNo" />
+          <ScalarProperty Name="OfficeNo" ColumnName="OfficeNo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="RaceID" ColumnName="RaceID" />
+          <ScalarProperty Name="GenderID" ColumnName="GenderID" />
+          <ScalarProperty Name="AddressStreet" ColumnName="AddressStreet" />
+          <ScalarProperty Name="AddressSuburb" ColumnName="AddressSuburb" />
+          <ScalarProperty Name="AddressCity" ColumnName="AddressCity" />
+          <ScalarProperty Name="AddressCode" ColumnName="AddressCode" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="TermsAndConditions" ColumnName="TermsAndConditions" />
+          <ScalarProperty Name="ReviewContract" ColumnName="ReviewContract" />
+          <ScalarProperty Name="ReasonID" ColumnName="ReasonID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_AssociationRegion">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_AssociationRegion">
+        <MappingFragment StoreEntitySet="tbl_AssociationRegion">
+          <ScalarProperty Name="AssociationRegionID" ColumnName="AssociationRegionID" />
+          <ScalarProperty Name="AssociationID" ColumnName="AssociationID" />
+          <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_AssociationServiceArea">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_AssociationServiceArea">
+        <MappingFragment StoreEntitySet="tbl_AssociationServiceArea">
+          <ScalarProperty Name="AssociationServiceAreaID" ColumnName="AssociationServiceAreaID" />
+          <ScalarProperty Name="AssociationID" ColumnName="AssociationID" />
+          <ScalarProperty Name="RegionSAreaID" ColumnName="RegionSAreaID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_AuditTrail">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_AuditTrail">
+        <MappingFragment StoreEntitySet="tbl_AuditTrail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Actions" ColumnName="Actions" />
+          <ScalarProperty Name="OldData" ColumnName="OldData" />
+          <ScalarProperty Name="NewData" ColumnName="NewData" />
+          <ScalarProperty Name="ChangedColums" ColumnName="ChangedColums" />
+          <ScalarProperty Name="TableIdValue" ColumnName="TableIdValue" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Driver">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_Driver">
+        <MappingFragment StoreEntitySet="tbl_Driver">
+          <ScalarProperty Name="DriverID" ColumnName="DriverID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="IDNo" ColumnName="IDNo" />
+          <ScalarProperty Name="CalcBirthDate" ColumnName="CalcBirthDate" />
+          <ScalarProperty Name="CellNo" ColumnName="CellNo" />
+          <ScalarProperty Name="OfficeNo" ColumnName="OfficeNo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="AddressStreet" ColumnName="AddressStreet" />
+          <ScalarProperty Name="AddressSuburb" ColumnName="AddressSuburb" />
+          <ScalarProperty Name="AddressCity" ColumnName="AddressCity" />
+          <ScalarProperty Name="AddressCode" ColumnName="AddressCode" />
+          <ScalarProperty Name="DriverLicenseScanID" ColumnName="DriverLicenseScanID" />
+          <ScalarProperty Name="LicenseCodeID" ColumnName="LicenseCodeID" />
+          <ScalarProperty Name="LicenseExpiry" ColumnName="LicenseExpiry" />
+          <ScalarProperty Name="PRDPScanID" ColumnName="PRDPScanID" />
+          <ScalarProperty Name="PRDPCode" ColumnName="PRDPCode" />
+          <ScalarProperty Name="PRDPExpiry" ColumnName="PRDPExpiry" />
+          <ScalarProperty Name="EmploymentContract" ColumnName="EmploymentContract" />
+          <ScalarProperty Name="EmploymentContractExpiry" ColumnName="EmploymentContractExpiry" />
+          <ScalarProperty Name="EmploymentContractScanID" ColumnName="EmploymentContractScanID" />
+          <ScalarProperty Name="RecommendationLetterScanID" ColumnName="RecommendationLetterScanID" />
+          <ScalarProperty Name="CalcDriverNO" ColumnName="CalcDriverNO" />
+          <ScalarProperty Name="TermsAndConditions" ColumnName="TermsAndConditions" />
+          <ScalarProperty Name="ReviewContract" ColumnName="ReviewContract" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="GenderID" ColumnName="GenderID" />
+          <ScalarProperty Name="RaceID" ColumnName="RaceID" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="ReasonID" ColumnName="ReasonID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Gender">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_Gender">
+        <MappingFragment StoreEntitySet="tbl_Gender">
+          <ScalarProperty Name="GenderID" ColumnName="GenderID" />
+          <ScalarProperty Name="GenderDescription" ColumnName="GenderDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_LicenseCode">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_LicenseCode">
+        <MappingFragment StoreEntitySet="tbl_LicenseCode">
+          <ScalarProperty Name="LicenseCodeID" ColumnName="LicenseCodeID" />
+          <ScalarProperty Name="LicenseCode" ColumnName="LicenseCode" />
+          <ScalarProperty Name="LicenseCodeDescription" ColumnName="LicenseCodeDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_OperatingLicense">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_OperatingLicense">
+        <MappingFragment StoreEntitySet="tbl_OperatingLicense">
+          <ScalarProperty Name="OperatingLicenseID" ColumnName="OperatingLicenseID" />
+          <ScalarProperty Name="OLCode" ColumnName="OLCode" />
+          <ScalarProperty Name="RouteCode" ColumnName="RouteCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Owner">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_Owner">
+        <MappingFragment StoreEntitySet="tbl_Owner">
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="IDNo" ColumnName="IDNo" />
+          <ScalarProperty Name="CalcBirthDate" ColumnName="CalcBirthDate" />
+          <ScalarProperty Name="CellNo" ColumnName="CellNo" />
+          <ScalarProperty Name="OfficeNo" ColumnName="OfficeNo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="AddressStreet" ColumnName="AddressStreet" />
+          <ScalarProperty Name="AddressSuburb" ColumnName="AddressSuburb" />
+          <ScalarProperty Name="AddressCity" ColumnName="AddressCity" />
+          <ScalarProperty Name="AddressCode" ColumnName="AddressCode" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="TermsAndConditions" ColumnName="TermsAndConditions" />
+          <ScalarProperty Name="ReviewContract" ColumnName="ReviewContract" />
+          <ScalarProperty Name="RaceID" ColumnName="RaceID" />
+          <ScalarProperty Name="GenderID" ColumnName="GenderID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="ReasonID" ColumnName="ReasonID" />
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+          <ScalarProperty Name="PendingDriver" ColumnName="PendingDriver" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_OwnerAssociation">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_OwnerAssociation">
+        <MappingFragment StoreEntitySet="tbl_OwnerAssociation">
+          <ScalarProperty Name="OwnerAssociationID" ColumnName="OwnerAssociationID" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="AssociationID" ColumnName="AssociationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_OwnerServiceArea">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_OwnerServiceArea">
+        <MappingFragment StoreEntitySet="tbl_OwnerServiceArea">
+          <ScalarProperty Name="OwnerServiceAreaID" ColumnName="OwnerServiceAreaID" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="AssociationServiceAreaID" ColumnName="AssociationServiceAreaID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Race">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_Race">
+        <MappingFragment StoreEntitySet="tbl_Race">
+          <ScalarProperty Name="RaceID" ColumnName="RaceID" />
+          <ScalarProperty Name="RaceDescription" ColumnName="RaceDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Reason">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_Reason">
+        <MappingFragment StoreEntitySet="tbl_Reason">
+          <ScalarProperty Name="ReasonID" ColumnName="ReasonID" />
+          <ScalarProperty Name="ReasonDescription" ColumnName="ReasonDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_RegionalLeadership">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_RegionalLeadership">
+        <MappingFragment StoreEntitySet="tbl_RegionalLeadership">
+          <ScalarProperty Name="RegionalLeaderID" ColumnName="RegionalLeaderID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="IDNo" ColumnName="IDNo" />
+          <ScalarProperty Name="Passport" ColumnName="Passport" />
+          <ScalarProperty Name="IsPassport" ColumnName="IsPassport" />
+          <ScalarProperty Name="CalcBirthDate" ColumnName="CalcBirthDate" />
+          <ScalarProperty Name="CellNo" ColumnName="CellNo" />
+          <ScalarProperty Name="OfficeNo" ColumnName="OfficeNo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="AddressStreet" ColumnName="AddressStreet" />
+          <ScalarProperty Name="AddressSuburb" ColumnName="AddressSuburb" />
+          <ScalarProperty Name="AddressCity" ColumnName="AddressCity" />
+          <ScalarProperty Name="AddressCode" ColumnName="AddressCode" />
+          <ScalarProperty Name="TermsAndConditions" ColumnName="TermsAndConditions" />
+          <ScalarProperty Name="ReviewContract" ColumnName="ReviewContract" />
+          <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+          <ScalarProperty Name="GenderID" ColumnName="GenderID" />
+          <ScalarProperty Name="RaceID" ColumnName="RaceID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="ReasonID" ColumnName="ReasonID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_RegionServiceArea">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_RegionServiceArea">
+        <MappingFragment StoreEntitySet="tbl_RegionServiceArea">
+          <ScalarProperty Name="RegionSAreaID" ColumnName="RegionSAreaID" />
+          <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+          <ScalarProperty Name="ServiceAreaID" ColumnName="ServiceAreaID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Role">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_Role">
+        <MappingFragment StoreEntitySet="tbl_Role">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleDescription" ColumnName="RoleDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ServiceArea">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_ServiceArea">
+        <MappingFragment StoreEntitySet="tbl_ServiceArea">
+          <ScalarProperty Name="ServiceAreaID" ColumnName="ServiceAreaID" />
+          <ScalarProperty Name="ServiceAreaDescription" ColumnName="ServiceAreaDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Status">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_Status">
+        <MappingFragment StoreEntitySet="tbl_Status">
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="StatusDescription" ColumnName="StatusDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_User">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_User">
+        <MappingFragment StoreEntitySet="tbl_User">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="CellNo" ColumnName="CellNo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="IDNo" ColumnName="IDNo" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PasswordConfirm" ColumnName="PasswordConfirm" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="FirstTimeLogin" ColumnName="FirstTimeLogin" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsSupervisor" ColumnName="IsSupervisor" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RaceID" ColumnName="RaceID" />
+          <ScalarProperty Name="GenderID" ColumnName="GenderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_UserPage">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_UserPage">
+        <MappingFragment StoreEntitySet="tbl_UserPage">
+          <ScalarProperty Name="UserPageID" ColumnName="UserPageID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Association" ColumnName="Association" />
+          <ScalarProperty Name="AssociationL" ColumnName="AssociationL" />
+          <ScalarProperty Name="AssociationR" ColumnName="AssociationR" />
+          <ScalarProperty Name="AssociationSA" ColumnName="AssociationSA" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerA" ColumnName="OwnerA" />
+          <ScalarProperty Name="OwnerSA" ColumnName="OwnerSA" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="RegionL" ColumnName="RegionL" />
+          <ScalarProperty Name="RegionSA" ColumnName="RegionSA" />
+          <ScalarProperty Name="Driver" ColumnName="Driver" />
+          <ScalarProperty Name="Vehicle" ColumnName="Vehicle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Vehicle">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_Vehicle">
+        <MappingFragment StoreEntitySet="tbl_Vehicle">
+          <ScalarProperty Name="VehicleID" ColumnName="VehicleID" />
+          <ScalarProperty Name="NumberPlate" ColumnName="NumberPlate" />
+          <ScalarProperty Name="LastServiced" ColumnName="LastServiced" />
+          <ScalarProperty Name="YearRegistered" ColumnName="YearRegistered" />
+          <ScalarProperty Name="EngineNumber" ColumnName="EngineNumber" />
+          <ScalarProperty Name="VINNumber" ColumnName="VINNumber" />
+          <ScalarProperty Name="CORScanID" ColumnName="CORScanID" />
+          <ScalarProperty Name="CORExpiry" ColumnName="CORExpiry" />
+          <ScalarProperty Name="OperatingLicense" ColumnName="OperatingLicense" />
+          <ScalarProperty Name="OperatingLicenseExpiry" ColumnName="OperatingLicenseExpiry" />
+          <ScalarProperty Name="VehicleAccreditation" ColumnName="VehicleAccreditation" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Capacity" ColumnName="Capacity" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="VehicleInfoID" ColumnName="VehicleInfoID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="ReasonID" ColumnName="ReasonID" />
+          <ScalarProperty Name="PaymentAdded" ColumnName="PaymentAdded" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_VehicleInfo">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_VehicleInfo">
+        <MappingFragment StoreEntitySet="tbl_VehicleInfo">
+          <ScalarProperty Name="VehicleInfoID" ColumnName="VehicleInfoID" />
+          <ScalarProperty Name="Make" ColumnName="Make" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Capacity" ColumnName="Capacity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="data">
+      <EntityTypeMapping TypeName="GoDurbanModel.datum">
+        <MappingFragment StoreEntitySet="data">
+          <ScalarProperty Name="AssociationID" ColumnName="AssociationID" />
+          <ScalarProperty Name="AssociationName" ColumnName="AssociationName" />
+          <ScalarProperty Name="AssociationNo" ColumnName="AssociationNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DriverCount">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_DriverCount">
+        <MappingFragment StoreEntitySet="tbl_DriverCount">
+          <ScalarProperty Name="org_process_id" ColumnName="org_process_id" />
+          <ScalarProperty Name="seq_id" ColumnName="seq_id" />
+          <ScalarProperty Name="seq_name" ColumnName="seq_name" />
+          <ScalarProperty Name="last_value" ColumnName="last_value" />
+          <ScalarProperty Name="month" ColumnName="month" />
+          <ScalarProperty Name="year" ColumnName="year" />
+          <ScalarProperty Name="sys_timestamp" ColumnName="sys_timestamp" />
+          <ScalarProperty Name="inserted_user" ColumnName="inserted_user" />
+          <ScalarProperty Name="inserted_date" ColumnName="inserted_date" />
+          <ScalarProperty Name="updated_user" ColumnName="updated_user" />
+          <ScalarProperty Name="updated_date" ColumnName="updated_date" />
+          <ScalarProperty Name="hkey_id" ColumnName="hkey_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_PaymentAmount">
+      <EntityTypeMapping TypeName="GoDurbanModel.tbl_PaymentAmount">
+        <MappingFragment StoreEntitySet="tbl_PaymentAmount">
+          <ScalarProperty Name="PaymentAmountID" ColumnName="PaymentAmountID" />
+          <ScalarProperty Name="Datetime" ColumnName="Datetime" />
+          <ScalarProperty Name="Recipients" ColumnName="Recipients" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_details">
+      <EntityTypeMapping TypeName="GoDurbanModel.V_details">
+        <MappingFragment StoreEntitySet="V_details">
+          <ScalarProperty Name="accountid" ColumnName="accountid" />
+          <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+          <ScalarProperty Name="AccountNo" ColumnName="AccountNo" />
+          <ScalarProperty Name="regionid" ColumnName="regionid" />
+          <ScalarProperty Name="associationid" ColumnName="associationid" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="IDNo" ColumnName="IDNo" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="IsPaymentSent" ColumnName="IsPaymentSent" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="tDate" ColumnName="tDate" />
+          <ScalarProperty Name="month_name" ColumnName="month_name" />
+          <ScalarProperty Name="P_amount" ColumnName="P_amount" />
+          <ScalarProperty Name="RegionName" ColumnName="RegionName" />
+          <ScalarProperty Name="associationname" ColumnName="associationname" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="NumberPlate" ColumnName="NumberPlate" />
+          <ScalarProperty Name="cnt" ColumnName="cnt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_drivers">
+      <EntityTypeMapping TypeName="GoDurbanModel.v_drivers">
+        <MappingFragment StoreEntitySet="v_drivers">
+          <ScalarProperty Name="ownerid" ColumnName="ownerid" />
+          <ScalarProperty Name="idno" ColumnName="idno" />
+          <ScalarProperty Name="Oname" ColumnName="Oname" />
+          <ScalarProperty Name="Osurn" ColumnName="Osurn" />
+          <ScalarProperty Name="RegionName" ColumnName="RegionName" />
+          <ScalarProperty Name="associationname" ColumnName="associationname" />
+          <ScalarProperty Name="ldate" ColumnName="ldate" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="DId" ColumnName="DId" />
+          <ScalarProperty Name="statusid" ColumnName="statusid" />
+          <ScalarProperty Name="ReasonID" ColumnName="ReasonID" />
+          <ScalarProperty Name="DriverID" ColumnName="DriverID" />
+          <ScalarProperty Name="ReasonDescription" ColumnName="ReasonDescription" />
+          <ScalarProperty Name="StatusDescription" ColumnName="StatusDescription" />
+          <ScalarProperty Name="LicenseCodeDescription" ColumnName="LicenseCodeDescription" />
+          <ScalarProperty Name="LicenseExpiry" ColumnName="LicenseExpiry" />
+          <ScalarProperty Name="edate" ColumnName="edate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_license">
+      <EntityTypeMapping TypeName="GoDurbanModel.v_license">
+        <MappingFragment StoreEntitySet="v_license">
+          <ScalarProperty Name="LicenseCodeDescription" ColumnName="LicenseCodeDescription" />
+          <ScalarProperty Name="LicenseExpiry" ColumnName="LicenseExpiry" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="DriverID" ColumnName="DriverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_owner">
+      <EntityTypeMapping TypeName="GoDurbanModel.v_owner">
+        <MappingFragment StoreEntitySet="v_owner">
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="IDNo" ColumnName="IDNo" />
+          <ScalarProperty Name="AssociationName" ColumnName="AssociationName" />
+          <ScalarProperty Name="P_amount" ColumnName="P_amount" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="NumberPlate" ColumnName="NumberPlate" />
+          <ScalarProperty Name="RegionName" ColumnName="RegionName" />
+          <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+          <ScalarProperty Name="Pdate" ColumnName="Pdate" />
+          <ScalarProperty Name="month_name" ColumnName="month_name" />
+          <ScalarProperty Name="IsPaymentSent" ColumnName="IsPaymentSent" />
+          <ScalarProperty Name="accountno" ColumnName="accountno" />
+          <ScalarProperty Name="cnt" ColumnName="cnt" />
+          <ScalarProperty Name="Amt" ColumnName="Amt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_region">
+      <EntityTypeMapping TypeName="GoDurbanModel.v_region">
+        <MappingFragment StoreEntitySet="v_region">
+          <ScalarProperty Name="regions" ColumnName="regions" />
+          <ScalarProperty Name="IsPaymentSent" ColumnName="IsPaymentSent" />
+          <ScalarProperty Name="P_amount" ColumnName="P_amount" />
+          <ScalarProperty Name="TDate" ColumnName="TDate" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="month_name" ColumnName="month_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_vehicle">
+      <EntityTypeMapping TypeName="GoDurbanModel.V_vehicle">
+        <MappingFragment StoreEntitySet="V_vehicle">
+          <ScalarProperty Name="ownerid" ColumnName="ownerid" />
+          <ScalarProperty Name="idno" ColumnName="idno" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="RegionName" ColumnName="RegionName" />
+          <ScalarProperty Name="associationname" ColumnName="associationname" />
+          <ScalarProperty Name="ldate" ColumnName="ldate" />
+          <ScalarProperty Name="NumberPlate" ColumnName="NumberPlate" />
+          <ScalarProperty Name="statusid" ColumnName="statusid" />
+          <ScalarProperty Name="ReasonID" ColumnName="ReasonID" />
+          <ScalarProperty Name="LastServiced" ColumnName="LastServiced" />
+          <ScalarProperty Name="OperatingLicense" ColumnName="OperatingLicense" />
+          <ScalarProperty Name="OperatingLicenseExpiry" ColumnName="OperatingLicenseExpiry" />
+          <ScalarProperty Name="ReasonDescription" ColumnName="ReasonDescription" />
+          <ScalarProperty Name="StatusDescription" ColumnName="StatusDescription" />
+          <ScalarProperty Name="edate" ColumnName="edate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="CheckVoid" FunctionName="GoDurbanModel.Store.CheckVoid" />
+    <FunctionImportMapping FunctionImportName="sp_Batch" FunctionName="GoDurbanModel.Store.sp_Batch" />
+    <FunctionImportMapping FunctionImportName="sp_Count" FunctionName="GoDurbanModel.Store.sp_Count" />
+    <FunctionImportMapping FunctionImportName="sp_DOC_Count" FunctionName="GoDurbanModel.Store.sp_DOC_Count" />
+    <FunctionImportMapping FunctionImportName="sp_DOC_LN" FunctionName="GoDurbanModel.Store.sp_DOC_LN" />
+    <FunctionImportMapping FunctionImportName="sp_get" FunctionName="GoDurbanModel.Store.sp_get" />
+  </EntityContainerMapping>
+</Mapping>

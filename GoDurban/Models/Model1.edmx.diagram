@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2501100d9c55465cb4b009c2379e05e6" Name="Diagram1">
+        <EntityTypeShape EntityType="GoDurbanModel.Account" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.Association" Width="1.5" PointX="3" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.Bank" Width="1.5" PointX="1.5" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.Date" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.NoOfClicksPerMonth" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.Payment" Width="1.5" PointX="11.25" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.Region" Width="1.5" PointX="6" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_AssociationLeadership" Width="1.5" PointX="5.25" PointY="30.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_AssociationRegion" Width="1.5" PointX="11.25" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_AssociationServiceArea" Width="1.5" PointX="5.25" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_AuditTrail" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_Driver" Width="1.5" PointX="9" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_Gender" Width="1.5" PointX="0.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_LicenseCode" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_OperatingLicense" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_Owner" Width="1.5" PointX="3" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_OwnerAssociation" Width="1.5" PointX="8.25" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_OwnerServiceArea" Width="1.5" PointX="7.5" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_Race" Width="1.5" PointX="0.75" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_Reason" Width="1.5" PointX="0.75" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_RegionalLeadership" Width="1.5" PointX="14.25" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_RegionServiceArea" Width="1.5" PointX="14.25" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_Role" Width="1.5" PointX="5.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_ServiceArea" Width="1.5" PointX="12" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_Status" Width="1.5" PointX="0.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_User" Width="1.5" PointX="8" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_UserPage" Width="1.5" PointX="10.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_Vehicle" Width="1.5" PointX="5.25" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_VehicleInfo" Width="1.5" PointX="3" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.datum" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_DriverCount" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.tbl_PaymentAmount" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.V_details" Width="1.5" PointX="3.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.v_drivers" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.v_license" Width="1.5" PointX="5.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.v_owner" Width="1.5" PointX="8.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.v_region" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoDurbanModel.V_vehicle" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="GoDurbanModel.FK_Account_Bank" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_Association_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_Region_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Owner_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_Association_tbl_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_Payment_Association" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_AssociationLeadership_Association" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_AssociationRegion_Association" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_AssociationServiceArea_Association" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_OwnerAssociation_Association" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_Payment_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_Payment_tbl_Owner" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_Region_tbl_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_AssociationRegion_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_RegionalLeadership_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_RegionServiceArea_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_AssociationLeadership_tbl_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_AssociationLeadership_tbl_Race" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_AssociationLeadership_tbl_Reason" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_AssociationLeadership_tbl_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_OwnerServiceArea_tbl_AssociationServiceArea" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Driver_tbl_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Driver_tbl_Race" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Driver_tbl_Reason" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Driver_tbl_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Owner_tbl_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_RegionalLeadership_tbl_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_User_tbl_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Owner_tbl_Race" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Owner_tbl_Reason" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Owner_tbl_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_OwnerAssociation_tbl_Owner" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_OwnerServiceArea_tbl_Owner" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Vehicle_tbl_Owner" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_RegionalLeadership_tbl_Race" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_User_tbl_Race" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_RegionalLeadership_tbl_Reason" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Vehicle_tbl_Reason" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_RegionalLeadership_tbl_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_RegionServiceArea_tbl_ServiceArea" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_User_tbl_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Vehicle_tbl_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_UserPage_tbl_User" ManuallyRouted="false" />
+        <AssociationConnector Association="GoDurbanModel.FK_tbl_Vehicle_tbl_VehicleInfo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

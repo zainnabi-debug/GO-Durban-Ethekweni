@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://xmlns.example.com/1445344469534" xmlns:ns1="http://www.tibco.com/schemas/Email/SharedResources/Schema.xsd" xmlns:ns0="http://www.tibco.com/schemas/ESB_NotificationService/Shared_Resources/Schema/NotificationSchema/Schema.xsd" name="Untitled" targetNamespace="http://xmlns.example.com/1445344469534" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns="http://www.tibco.com/schemas/ESB_NotificationService/Shared_Resources/Schema/NotificationSchema/Schema.xsd" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.tibco.com/schemas/ESB_NotificationService/Shared_Resources/Schema/NotificationSchema/Schema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="Error_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ErrorCode" type="xs:string" />
+          <xs:element minOccurs="0" name="ErrorMessage" type="xs:string" />
+          <xs:element minOccurs="0" name="ErrorDescription" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="GeneratePDFRequest_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="TemplateId" type="xs:string" />
+          <xs:element minOccurs="0" name="WaterMarkLabel" type="xs:string" />
+          <xs:element minOccurs="0" name="IsStrWaterMark" type="xs:string" />
+          <xs:element minOccurs="0" name="TemplateMSG" type="xs:string" />
+          <xs:element minOccurs="0" ref="ns0:Parameters" />
+          <xs:element minOccurs="0" ref="ns0:BdsId" />
+          <xs:element minOccurs="0" name="Destination" type="xs:string" />
+          <xs:element minOccurs="0" name="IsSignature" type="xs:string" />
+          <xs:element minOccurs="0" name="sign" type="xs:string" />
+          <xs:element minOccurs="0" name="picLocation" type="xs:string" />
+          <xs:element minOccurs="0" name="isSignatures" type="xs:string" />
+          <xs:element minOccurs="0" name="Title" type="xs:string" />
+          <xs:element minOccurs="0" name="Department" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="GeneratePDFResponseDetails_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="PDFRespDetails" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="GeneratePDFResponse_T">
+        <xs:sequence>
+          <xs:element ref="ns0:Status" />
+          <xs:element minOccurs="0" ref="ns0:GeneratePDFResponseDetails" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter10_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter11_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter12_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter13_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter14_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter15_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter16_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter17_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter18_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter19_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter1_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter20_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter2_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter3_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter4_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter5_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter6_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter7_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter8_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter9_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameters_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" ref="ns0:Parameter1" />
+          <xs:element minOccurs="0" ref="ns0:Parameter2" />
+          <xs:element minOccurs="0" ref="ns0:Parameter3" />
+          <xs:element minOccurs="0" ref="ns0:Parameter4" />
+          <xs:element minOccurs="0" ref="ns0:Parameter5" />
+          <xs:element minOccurs="0" ref="ns0:Parameter6" />
+          <xs:element minOccurs="0" ref="ns0:Parameter7" />
+          <xs:element minOccurs="0" ref="ns0:Parameter8" />
+          <xs:element minOccurs="0" ref="ns0:Parameter9" />
+          <xs:element minOccurs="0" ref="ns0:Parameter10" />
+          <xs:element minOccurs="0" ref="ns0:Parameter11" />
+          <xs:element minOccurs="0" ref="ns0:Parameter12" />
+          <xs:element minOccurs="0" ref="ns0:Parameter13" />
+          <xs:element minOccurs="0" ref="ns0:Parameter14" />
+          <xs:element minOccurs="0" ref="ns0:Parameter15" />
+          <xs:element minOccurs="0" ref="ns0:Parameter16" />
+          <xs:element minOccurs="0" ref="ns0:Parameter17" />
+          <xs:element minOccurs="0" ref="ns0:Parameter18" />
+          <xs:element minOccurs="0" ref="ns0:Parameter19" />
+          <xs:element minOccurs="0" ref="ns0:Parameter20" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SendSMSReq_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="MobileNo" type="xs:string" />
+          <xs:element minOccurs="0" name="TemplateId" type="xs:string" />
+          <xs:element minOccurs="0" name="SMSmessage" type="xs:string" />
+          <xs:element minOccurs="0" ref="ns0:Parameters" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SendSMSResp_T">
+        <xs:sequence>
+          <xs:element ref="ns0:Status" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Status_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="StatusCode" type="xs:string" />
+          <xs:element minOccurs="0" name="StatusMessage" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="BdsId" type="xs:string" />
+      <xs:element name="Error" type="ns0:Error_T" />
+      <xs:element name="GeneratePDFRequest" type="ns0:GeneratePDFRequest_T" />
+      <xs:element name="GeneratePDFResponse" type="ns0:GeneratePDFResponse_T" />
+      <xs:element name="GeneratePDFResponseDetails" type="ns0:GeneratePDFResponseDetails_T" />
+      <xs:element name="Parameter1" type="ns0:Parameter1_T" />
+      <xs:element name="Parameter10" type="ns0:Parameter10_T" />
+      <xs:element name="Parameter11" type="ns0:Parameter11_T" />
+      <xs:element name="Parameter12" type="ns0:Parameter12_T" />
+      <xs:element name="Parameter13" type="ns0:Parameter13_T" />
+      <xs:element name="Parameter14" type="ns0:Parameter14_T" />
+      <xs:element name="Parameter15" type="ns0:Parameter15_T" />
+      <xs:element name="Parameter16" type="ns0:Parameter16_T" />
+      <xs:element name="Parameter17" type="ns0:Parameter17_T" />
+      <xs:element name="Parameter18" type="ns0:Parameter18_T" />
+      <xs:element name="Parameter19" type="ns0:Parameter19_T" />
+      <xs:element name="Parameter2" type="ns0:Parameter2_T" />
+      <xs:element name="Parameter20" type="ns0:Parameter20_T" />
+      <xs:element name="Parameter3" type="ns0:Parameter3_T" />
+      <xs:element name="Parameter4" type="ns0:Parameter4_T" />
+      <xs:element name="Parameter5" type="ns0:Parameter5_T" />
+      <xs:element name="Parameter6" type="ns0:Parameter6_T" />
+      <xs:element name="Parameter7" type="ns0:Parameter7_T" />
+      <xs:element name="Parameter8" type="ns0:Parameter8_T" />
+      <xs:element name="Parameter9" type="ns0:Parameter9_T" />
+      <xs:element name="Parameters" type="ns0:Parameters_T" />
+      <xs:element name="SendSMSReq" type="ns0:SendSMSReq_T" />
+      <xs:element name="SendSMSResp" type="ns0:SendSMSResp_T" />
+      <xs:element name="Status" type="ns0:Status_T" />
+      <xs:element name="root">
+        <xs:complexType />
+      </xs:element>
+    </xs:schema>
+    <xs:schema xmlns="http://www.tibco.com/schemas/Email/SharedResources/Schema.xsd" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.tibco.com/schemas/Email/SharedResources/Schema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="Attachments_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="fileName" type="xs:string" />
+          <xs:element minOccurs="0" name="fileContent" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="MsgParameters_T">
+        <xs:sequence>
+          <xs:element name="Parameters" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter10_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter11_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter12_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter13_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter14_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter15_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter1_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter2_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter3_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter4_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter5_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter6_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter7_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter8_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameter9_T">
+        <xs:sequence>
+          <xs:element name="Name" type="xs:string" />
+          <xs:element name="Value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Parameters_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" ref="ns1:Parameter1" />
+          <xs:element minOccurs="0" ref="ns1:Parameter2" />
+          <xs:element minOccurs="0" ref="ns1:Parameter3" />
+          <xs:element minOccurs="0" ref="ns1:Parameter4" />
+          <xs:element minOccurs="0" ref="ns1:Parameter5" />
+          <xs:element minOccurs="0" ref="ns1:Parameter6" />
+          <xs:element minOccurs="0" ref="ns1:Parameter7" />
+          <xs:element minOccurs="0" ref="ns1:Parameter8" />
+          <xs:element minOccurs="0" ref="ns1:Parameter9" />
+          <xs:element minOccurs="0" ref="ns1:Parameter10" />
+          <xs:element minOccurs="0" ref="ns1:Parameter11" />
+          <xs:element minOccurs="0" ref="ns1:Parameter12" />
+          <xs:element minOccurs="0" ref="ns1:Parameter13" />
+          <xs:element minOccurs="0" ref="ns1:Parameter14" />
+          <xs:element minOccurs="0" ref="ns1:Parameter15" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SearchMailResponseDetails_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Subject" type="xs:string" />
+          <xs:element minOccurs="0" name="TemplateMSG" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SendEmailRequest">
+        <xs:sequence>
+          <xs:element name="To" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Cc" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Bcc" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ReplyTo" type="xs:string" />
+          <xs:element minOccurs="0" name="subject" type="xs:string" />
+          <xs:element minOccurs="0" name="templateMSG" type="xs:string" />
+          <xs:element minOccurs="0" name="TemplateId" type="xs:string" />
+          <xs:element minOccurs="0" ref="ns1:Parameters" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:Attachments" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="FileName" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SendEmailResponse">
+        <xs:sequence>
+          <xs:element name="Status">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="StatusCode" type="xs:string" />
+                <xs:element name="StatusMsg" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Status_T">
+        <xs:sequence>
+          <xs:element name="StatusCode" type="xs:string" />
+          <xs:element name="StatusMsg" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Attachments" type="ns1:Attachments_T" />
+      <xs:element name="MsgParameters" type="ns1:MsgParameters_T" />
+      <xs:element name="Parameter1" type="ns1:Parameter1_T" />
+      <xs:element name="Parameter10" type="ns1:Parameter10_T" />
+      <xs:element name="Parameter11" type="ns1:Parameter11_T" />
+      <xs:element name="Parameter12" type="ns1:Parameter12_T" />
+      <xs:element name="Parameter13" type="ns1:Parameter13_T" />
+      <xs:element name="Parameter14" type="ns1:Parameter14_T" />
+      <xs:element name="Parameter15" type="ns1:Parameter15_T" />
+      <xs:element name="Parameter2" type="ns1:Parameter2_T" />
+      <xs:element name="Parameter3" type="ns1:Parameter3_T" />
+      <xs:element name="Parameter4" type="ns1:Parameter4_T" />
+      <xs:element name="Parameter5" type="ns1:Parameter5_T" />
+      <xs:element name="Parameter6" type="ns1:Parameter6_T" />
+      <xs:element name="Parameter7" type="ns1:Parameter7_T" />
+      <xs:element name="Parameter8" type="ns1:Parameter8_T" />
+      <xs:element name="Parameter9" type="ns1:Parameter9_T" />
+      <xs:element name="Parameters" type="ns1:Parameters_T" />
+      <xs:element name="ReferenceNo" type="xs:string" />
+      <xs:element name="SearchMailResponseDetails" type="ns1:SearchMailResponseDetails_T" />
+      <xs:element name="SendEmailRequest" type="ns1:SendEmailRequest" />
+      <xs:element name="SendEmailResponse" type="ns1:SendEmailResponse" />
+      <xs:element name="Status" type="ns1:Status_T" />
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="SendSMSReq">
+    <wsdl:part name="SendSMSReq" element="ns0:SendSMSReq" />
+  </wsdl:message>
+  <wsdl:message name="SendSMSResp">
+    <wsdl:part name="SendSMSResp" element="ns0:SendSMSResp" />
+  </wsdl:message>
+  <wsdl:message name="Error">
+    <wsdl:part name="Error" element="ns0:Error" />
+  </wsdl:message>
+  <wsdl:message name="GeneratePDFReq">
+    <wsdl:part name="GeneratePDFReq" element="ns0:GeneratePDFRequest" />
+  </wsdl:message>
+  <wsdl:message name="GeneratePDFResp">
+    <wsdl:part name="GeneratePDFResp" element="ns0:GeneratePDFResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailReq">
+    <wsdl:part name="SendEmailReq" element="ns1:SendEmailRequest" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailResp">
+    <wsdl:part name="SendEmailResp" element="ns1:SendEmailResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PortType">
+    <wsdl:operation name="SendSMSOperation">
+      <wsdl:input message="tns:SendSMSReq" />
+      <wsdl:output message="tns:SendSMSResp" />
+      <wsdl:fault name="fault1" message="tns:Error" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneratePDFOperation">
+      <wsdl:input message="tns:GeneratePDFReq" />
+      <wsdl:output message="tns:GeneratePDFResp" />
+      <wsdl:fault name="fault1" message="tns:Error" />
+    </wsdl:operation>
+    <wsdl:operation name="SendEmailOperation">
+      <wsdl:input message="tns:SendEmailReq" />
+      <wsdl:output message="tns:SendEmailResp" />
+      <wsdl:fault name="fault1" message="tns:Error" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PortTypeBinding" type="tns:PortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendSMSOperation">
+      <soap:operation soapAction="/Services/NotificationService.serviceagent//SendSMSOperation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="SendSMSReq" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="SendSMSResp" />
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault use="literal" name="fault1" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GeneratePDFOperation">
+      <soap:operation soapAction="/Services/NotificationService.serviceagent//GeneratePDFOperation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="GeneratePDFReq" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="GeneratePDFResp" />
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault use="literal" name="fault1" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SendEmailOperation">
+      <soap:operation soapAction="/Services/NotificationService.serviceagent//SendEmailOperation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="SendEmailReq" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="SendEmailResp" />
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault use="literal" name="fault1" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NotificationService.serviceagent">
+    <wsdl:port name="PortType" binding="tns:PortTypeBinding">
+      <soap:address location="http://localhost:8131/Services/NotificationService.serviceagent/PortType" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

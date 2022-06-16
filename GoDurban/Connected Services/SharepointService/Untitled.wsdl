@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns2="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Error.xsd" xmlns:tns="http://xmlns.example.com/1459432320734" xmlns:ns5="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Download_Request.xsd" xmlns:ns7="http://www.tibco.com/schemas/ism-dms/SharedResources/Schemas/Delete.xsd" xmlns:ns4="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Search_Response.xsd" xmlns:ns0="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Upload_Request.xsd" xmlns:ns6="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Download_Response.xsd" xmlns:ns3="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Search_Request.xsd" xmlns:ns1="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Upload_Response.xsd" name="Untitled" targetNamespace="http://xmlns.example.com/1459432320734" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Search_Response.xsd" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Search_Response.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="BASE_TYPE_ID" type="xs:string" />
+      <xs:element name="CREATION_DATE" type="xs:string" />
+      <xs:element name="Link_URL" type="xs:string" />
+      <xs:element name="NAME" type="xs:string" />
+      <xs:element name="OBJECT_ID" type="xs:string" />
+      <xs:element name="REFERENCE_NUMBER" type="xs:string" />
+      <xs:element name="SearchDetails">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" ref="ns4:BASE_TYPE_ID" />
+            <xs:element minOccurs="0" ref="ns4:CREATION_DATE" />
+            <xs:element minOccurs="0" ref="ns4:Link_URL" />
+            <xs:element minOccurs="0" ref="ns4:NAME" />
+            <xs:element minOccurs="0" ref="ns4:OBJECT_ID" />
+            <xs:element minOccurs="0" ref="ns4:REFERENCE_NUMBER" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="VERSION_LABEL" type="xs:string" />
+      <xs:element name="response">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns4:SearchDetails" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema xmlns="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Download_Request.xsd" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Download_Request.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="docName" type="xs:string" />
+      <xs:element name="download_Request">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" ref="ns5:docName" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema xmlns="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Download_Response.xsd" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Download_Response.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="download_Response">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="optResult" type="xs:string" />
+            <xs:element name="docName" type="xs:string" />
+            <xs:element minOccurs="0" name="downloadDetails">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="documentContent" type="xs:string" />
+                  <xs:element name="filename" type="xs:string" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema xmlns="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Upload_Response.xsd" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Upload_Response.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="Upload_Response">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="optStatus" type="xs:string" />
+            <xs:element name="destinationURL" type="xs:string" />
+            <xs:element minOccurs="0" name="UpladDetails">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="UploadResult">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element minOccurs="0" ref="ns1:name" />
+                        <xs:element minOccurs="0" ref="ns1:link_url" />
+                        <xs:element minOccurs="0" ref="ns1:createdBy" />
+                        <xs:element minOccurs="0" ref="ns1:creation_Date" />
+                        <xs:element minOccurs="0" ref="ns1:object_ID" />
+                        <xs:element minOccurs="0" ref="ns1:reference_Number" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createdBy" type="xs:string" />
+      <xs:element name="creation_Date" type="xs:string" />
+      <xs:element name="link_url" type="xs:string" />
+      <xs:element name="name" type="xs:string" />
+      <xs:element name="object_ID" type="xs:string" />
+      <xs:element name="reference_Number" type="xs:string" />
+    </xs:schema>
+    <xs:schema xmlns="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Search_Request.xsd" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Search_Request.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="FolderName" type="xs:string" />
+      <xs:element name="Search_Request">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" ref="ns3:FolderName" />
+            <xs:element minOccurs="0" ref="ns3:documentName" />
+            <xs:element minOccurs="0" ref="ns3:refNo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="documentName" type="xs:string" />
+      <xs:element name="refNo" type="xs:string" />
+    </xs:schema>
+    <xs:schema xmlns="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Upload_Request.xsd" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Upload_Request.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="Upload_Request">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="fileName" type="xs:string" />
+            <xs:element minOccurs="0" name="sourceLocation" type="xs:string" />
+            <xs:element minOccurs="0" name="destinationLocation" type="xs:string" />
+            <xs:element minOccurs="0" name="referenceNo" type="xs:string" />
+            <xs:element minOccurs="0" name="description" type="xs:string" />
+            <xs:element minOccurs="0" name="fileContent" type="xs:base64Binary" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema xmlns="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Error.xsd" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.tibco.com/schemas/ism-document-management-service/SharedResources/Schemas/Error.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+      <xs:complexType name="Error_T">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ErrorCode" type="xs:string" />
+          <xs:element minOccurs="0" name="ErrorMessage" type="xs:string" />
+          <xs:element minOccurs="0" name="ErrorDescription" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Error" type="ns2:Error_T" />
+    </xs:schema>
+    <xs:schema xmlns="http://www.tibco.com/schemas/ism-dms/SharedResources/Schemas/Delete.xsd" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.tibco.com/schemas/ism-dms/SharedResources/Schemas/Delete.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="Delete">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="ns7:DeleteRequest" />
+            <xs:element ref="ns7:DeleteResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteRequest">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" ref="ns7:documentName" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" ref="ns7:Status" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Status" type="xs:string" />
+      <xs:element name="documentName" type="xs:string" />
+    </xs:schema>
+    <schema attributeFormDefault="qualified" elementFormDefault="unqualified" targetNamespace="http://www.w3.org/XML/1998/namespace" xmlns="http://www.w3.org/2001/XMLSchema">
+      <attribute name="base" type="anyURI" />
+      <attribute name="id" type="ID" />
+      <attribute name="lang">
+        <simpleType>
+          <union memberTypes="language">
+            <simpleType>
+              <restriction base="string">
+                <length value="0" />
+              </restriction>
+            </simpleType>
+          </union>
+        </simpleType>
+      </attribute>
+      <attribute default="preserve" name="space">
+        <simpleType>
+          <restriction base="NCName">
+            <enumeration value="default" />
+            <enumeration value="preserve" />
+          </restriction>
+        </simpleType>
+      </attribute>
+      <attributeGroup name="specialAttrs">
+        <attribute ref="xml:base" />
+        <attribute ref="xml:id" />
+        <attribute ref="xml:lang" />
+        <attribute default="preserve" ref="xml:space" />
+      </attributeGroup>
+    </schema>
+  </wsdl:types>
+  <wsdl:message name="UploadRequest">
+    <wsdl:part name="UploadRequest" element="ns0:Upload_Request" />
+  </wsdl:message>
+  <wsdl:message name="UploadResponse">
+    <wsdl:part name="UploadResponse" element="ns1:Upload_Response" />
+  </wsdl:message>
+  <wsdl:message name="Error">
+    <wsdl:part name="fault" element="ns2:Error" />
+  </wsdl:message>
+  <wsdl:message name="SearchRequest">
+    <wsdl:part name="SearchRequest" element="ns3:Search_Request" />
+  </wsdl:message>
+  <wsdl:message name="SearchResponse">
+    <wsdl:part name="SearchResponse" element="ns4:response" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRequest">
+    <wsdl:part name="DownloadRequest" element="ns5:download_Request" />
+  </wsdl:message>
+  <wsdl:message name="DownloadResponse">
+    <wsdl:part name="DownloadResponse" element="ns6:download_Response" />
+  </wsdl:message>
+  <wsdl:message name="DeleteRequest">
+    <wsdl:part name="DeleteRequest" element="ns7:DeleteRequest" />
+  </wsdl:message>
+  <wsdl:message name="DeleteResponse">
+    <wsdl:part name="DeleteResponse" element="ns7:DeleteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DocumentManagementSystem">
+    <wsdl:operation name="UploadDocument">
+      <wsdl:input message="tns:UploadRequest" />
+      <wsdl:output message="tns:UploadResponse" />
+      <wsdl:fault name="fault1" message="tns:Error" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchDocument">
+      <wsdl:input message="tns:SearchRequest" />
+      <wsdl:output message="tns:SearchResponse" />
+      <wsdl:fault name="fault1" message="tns:Error" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadDocument">
+      <wsdl:input message="tns:DownloadRequest" />
+      <wsdl:output message="tns:DownloadResponse" />
+      <wsdl:fault name="fault1" message="tns:Error" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDocument">
+      <wsdl:input message="tns:DeleteRequest" />
+      <wsdl:output message="tns:DeleteResponse" />
+      <wsdl:fault name="fault1" message="tns:Error" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DocumentManagementSystemEndpoint1Binding" type="tns:DocumentManagementSystem">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadDocument">
+      <soap:operation soapAction="/webservice/Service/Service.serviceagent/DocumentManagementSystemEndpoint1/UploadDocument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="UploadRequest" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="UploadResponse" />
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault use="literal" name="fault1" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchDocument">
+      <soap:operation soapAction="/webservice/Service/Service.serviceagent/DocumentManagementSystemEndpoint1/SearchDocument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="SearchRequest" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="SearchResponse" />
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault use="literal" name="fault1" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadDocument">
+      <soap:operation soapAction="/webservice/Service/Service.serviceagent/DocumentManagementSystemEndpoint1/DownloadDocument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="DownloadRequest" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="DownloadResponse" />
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault use="literal" name="fault1" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDocument">
+      <soap:operation soapAction="/webservice/Service/Service.serviceagent//DeleteDocument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="DeleteRequest" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="DeleteResponse" />
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault use="literal" name="fault1" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="DocumentManagementSystemEndpoint1" binding="tns:DocumentManagementSystemEndpoint1Binding">
+      <soap:address location="http://dev-bw.dbn.ocg.lan:28000/webservice/Service/Service.serviceagent/DocumentManagementSystemEndpoint" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

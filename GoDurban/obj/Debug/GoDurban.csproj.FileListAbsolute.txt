@@ -1,0 +1,1269 @@
+C:\Workspace\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+C:\Workspace\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\csc.exe
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\csc.exe.config
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\csc.rsp
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\csi.exe
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\csi.exe.config
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\csi.rsp
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.AppContext.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Collections.Immutable.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Console.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Diagnostics.Process.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.IO.Compression.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.IO.FileSystem.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.IO.Pipes.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Reflection.Metadata.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Security.AccessControl.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Security.Claims.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Threading.Thread.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.ValueTuple.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Xml.XPath.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\vbc.exe
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\vbc.exe.config
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\vbc.rsp
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\VBCSCompiler.exe
+C:\Workspace\GoDurban\GoDurban\bin\roslyn\VBCSCompiler.exe.config
+C:\Workspace\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\Workspace\GoDurban\GoDurban\bin\GoDurban.dll
+C:\Workspace\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\Workspace\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\Workspace\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Workspace\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\Workspace\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\Workspace\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\Workspace\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\Workspace\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\Workspace\GoDurban\GoDurban\bin\WebGrease.dll
+C:\Workspace\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\Workspace\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Workspace\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\Workspace\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Workspace\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\Workspace\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\Workspace\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+D:\Workspace\GoDurban\GoDurban\bin\ApplicationInsights.config
+D:\Workspace\GoDurban\GoDurban\bin\GoDurban.dll.config
+D:\Workspace\GoDurban\GoDurban\bin\GoDurban.dll
+D:\Workspace\GoDurban\GoDurban\bin\GoDurban.pdb
+D:\Workspace\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+D:\Workspace\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Workspace\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+D:\Workspace\GoDurban\GoDurban\bin\Castle.Core.dll
+D:\Workspace\GoDurban\GoDurban\bin\ChangeTracking.dll
+D:\Workspace\GoDurban\GoDurban\bin\EntityFramework.dll
+D:\Workspace\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+D:\Workspace\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+D:\Workspace\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+D:\Workspace\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Workspace\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+D:\Workspace\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+D:\Workspace\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+D:\Workspace\GoDurban\GoDurban\bin\WebGrease.dll
+D:\Workspace\GoDurban\GoDurban\bin\Castle.Core.xml
+D:\Workspace\GoDurban\GoDurban\bin\EntityFramework.xml
+D:\Workspace\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+D:\Workspace\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Workspace\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Workspace\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+D:\Workspace\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+D:\Workspace\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Workspace\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+D:\Workspace\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+D:\Workspace\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+D:\Workspace\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+D:\Workspace\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\GoDurban.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\WebGrease.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\Users\Zanele\Downloads\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\GoDurban.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\WebGrease.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\EPPlus.dll
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\bin\EPPlus.xml
+C:\Users\sfskh\Downloads\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\GoDurban.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\EPPlus.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\WebGrease.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\EPPlus.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\Users\sfskh\Downloads\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+C:\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\GoDurban\GoDurban\bin\GoDurban.dll
+C:\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\GoDurban\GoDurban\bin\EPPlus.dll
+C:\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\GoDurban\GoDurban\bin\WebGrease.dll
+C:\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\GoDurban\GoDurban\bin\EPPlus.xml
+C:\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+C:\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+D:\2018_02_13\GoDurban\GoDurban\bin\ApplicationInsights.config
+D:\2018_02_13\GoDurban\GoDurban\bin\GoDurban.dll.config
+D:\2018_02_13\GoDurban\GoDurban\bin\GoDurban.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\GoDurban.pdb
+D:\2018_02_13\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Castle.Core.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\ChangeTracking.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\EntityFramework.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\EPPlus.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\WebGrease.dll
+D:\2018_02_13\GoDurban\GoDurban\bin\Castle.Core.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\EntityFramework.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+D:\2018_02_13\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\EPPlus.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+D:\2018_02_13\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\2018_02_13\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+D:\2018_02_13\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+D:\2018_02_13\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+D:\2018_02_13\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+D:\2018_02_13\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+D:\New folder\GoDurban\GoDurban\bin\ApplicationInsights.config
+D:\New folder\GoDurban\GoDurban\bin\GoDurban.dll.config
+D:\New folder\GoDurban\GoDurban\bin\GoDurban.dll
+D:\New folder\GoDurban\GoDurban\bin\GoDurban.pdb
+D:\New folder\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+D:\New folder\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+D:\New folder\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+D:\New folder\GoDurban\GoDurban\bin\Castle.Core.dll
+D:\New folder\GoDurban\GoDurban\bin\ChangeTracking.dll
+D:\New folder\GoDurban\GoDurban\bin\EntityFramework.dll
+D:\New folder\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+D:\New folder\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+D:\New folder\GoDurban\GoDurban\bin\EPPlus.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+D:\New folder\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+D:\New folder\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+D:\New folder\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+D:\New folder\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+D:\New folder\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+D:\New folder\GoDurban\GoDurban\bin\WebGrease.dll
+D:\New folder\GoDurban\GoDurban\bin\Castle.Core.xml
+D:\New folder\GoDurban\GoDurban\bin\EntityFramework.xml
+D:\New folder\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+D:\New folder\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+D:\New folder\GoDurban\GoDurban\bin\EPPlus.xml
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New folder\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+D:\New folder\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+D:\New folder\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+D:\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\New folder\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+D:\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+D:\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+D:\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\ApplicationInsights.config
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\GoDurban.dll.config
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\GoDurban.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\GoDurban.pdb
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Castle.Core.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\ChangeTracking.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\EntityFramework.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\EPPlus.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\WebGrease.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Castle.Core.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\EntityFramework.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\EPPlus.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+D:\18_03_05\New folder\GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+C:\GoDurban\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\GoDurban\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\GoDurban\GoDurban\GoDurban\bin\GoDurban.dll
+C:\GoDurban\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\GoDurban\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\GoDurban\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\GoDurban\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\GoDurban\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\GoDurban\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\GoDurban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\GoDurban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\GoDurban\GoDurban\GoDurban\bin\EPPlus.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\GoDurban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\GoDurban\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\GoDurban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\GoDurban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\GoDurban\GoDurban\GoDurban\bin\WebGrease.dll
+C:\GoDurban\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\GoDurban\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\GoDurban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\GoDurban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\GoDurban\GoDurban\GoDurban\bin\EPPlus.xml
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\GoDurban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\GoDurban\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\GoDurban\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\GoDurban\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+C:\GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\ApplicationInsights.config
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\GoDurban.dll.config
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\GoDurban.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\GoDurban.pdb
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Castle.Core.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\ChangeTracking.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\EntityFramework.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\EPPlus.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\WebGrease.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Castle.Core.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\EntityFramework.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\EPPlus.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+D:\18_03_05\GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+D:\18_03_05\GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+D:\18_03_05\GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+D:\18_03_05\GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+C:\Projects 2018\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\Projects 2018\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\Projects 2018\GoDurban\GoDurban\bin\GoDurban.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\Projects 2018\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\EPPlus.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\WebGrease.dll
+C:\Projects 2018\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\Projects 2018\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\EPPlus.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\Projects 2018\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Projects 2018\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Projects 2018\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+C:\Projects 2018\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\Projects 2018\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+D:\GoDurban\GoDurban\bin\ApplicationInsights.config
+D:\GoDurban\GoDurban\bin\GoDurban.dll.config
+D:\GoDurban\GoDurban\bin\GoDurban.dll
+D:\GoDurban\GoDurban\bin\GoDurban.pdb
+D:\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+D:\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+D:\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+D:\GoDurban\GoDurban\bin\Castle.Core.dll
+D:\GoDurban\GoDurban\bin\ChangeTracking.dll
+D:\GoDurban\GoDurban\bin\EntityFramework.dll
+D:\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+D:\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+D:\GoDurban\GoDurban\bin\EPPlus.dll
+D:\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+D:\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+D:\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+D:\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+D:\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+D:\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+D:\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+D:\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+D:\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+D:\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+D:\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+D:\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+D:\GoDurban\GoDurban\bin\WebGrease.dll
+D:\GoDurban\GoDurban\bin\Castle.Core.xml
+D:\GoDurban\GoDurban\bin\EntityFramework.xml
+D:\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+D:\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+D:\GoDurban\GoDurban\bin\EPPlus.xml
+D:\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+D:\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+D:\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+D:\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+D:\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+D:\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+D:\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+D:\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+D:\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+D:\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+D:\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+D:\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\GoDurban.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\EPPlus.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\WebGrease.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\EPPlus.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+D:\New GoDurban\GoDurban\GoDurban\bin\ApplicationInsights.config
+D:\New GoDurban\GoDurban\GoDurban\bin\GoDurban.dll.config
+D:\New GoDurban\GoDurban\GoDurban\bin\GoDurban.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\GoDurban.pdb
+D:\New GoDurban\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Castle.Core.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\ChangeTracking.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\EntityFramework.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\EPPlus.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\WebGrease.dll
+D:\New GoDurban\GoDurban\GoDurban\bin\Castle.Core.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\EntityFramework.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+D:\New GoDurban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\EPPlus.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+D:\New GoDurban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\New GoDurban\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+D:\New GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+D:\New GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+D:\New GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+C:\Projects 2018\New GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+D:\New GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.csprojAssemblyReference.cache
+D:\New GoDurban\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CopyComplete
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\GoDurban.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\EPPlus.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\WebGrease.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\EPPlus.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Projects 2018\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\Projects 2018\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+C:\Projects 2018\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+C:\Projects 2018\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CopyComplete
+C:\Projects 2018\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.csprojAssemblyReference.cache
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\GoDurban.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\EPPlus.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\WebGrease.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\EPPlus.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\obj\Debug\GoDurban.csprojAssemblyReference.cache
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CopyComplete
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\Users\CORALITE\Desktop\copy with status1d\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\ApplicationInsights.config
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\GoDurban.dll.config
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\GoDurban.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\GoDurban.pdb
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Castle.Core.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\ChangeTracking.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\EntityFramework.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\EPPlus.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\WebGrease.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Castle.Core.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\EntityFramework.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\EPPlus.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+Y:\inetpub\wwwroot\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+Y:\inetpub\wwwroot\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CopyComplete
+Y:\inetpub\wwwroot\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+Y:\inetpub\wwwroot\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+Y:\inetpub\wwwroot\GoDurban\GoDurban\obj\Debug\GoDurban.csprojAssemblyReference.cache
+C:\inetpub\wwwroot\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\GoDurban.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\EPPlus.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\WebGrease.dll
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\EPPlus.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\GoDurban.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\EPPlus.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\WebGrease.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\EPPlus.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Users\ctadmin\Music\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\Users\ctadmin\Music\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+C:\inetpub\wwwroot\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\inetpub\wwwroot\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\GoDurban.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\EPPlus.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\WebGrease.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\EPPlus.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.csprojAssemblyReference.cache
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CopyComplete
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\Users\CORALITE\Desktop\New folder\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\GoDurban.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\EPPlus.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\WebGrease.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\EPPlus.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\obj\Debug\GoDurban.csprojResolveAssemblyReference.cache
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CopyComplete
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\Users\Mukhtaar\Desktop\GO Durban\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\ApplicationInsights.config
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\GoDurban.dll.config
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\GoDurban.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\GoDurban.pdb
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Castle.Core.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\ChangeTracking.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\EntityFramework.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\EPPlus.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.Web.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.Common.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\TrackerEnabledDbContext.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\WebGrease.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Castle.Core.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\EntityFramework.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\EntityFramework.MappingAPI.pdb
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\EPPlus.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.Web.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\obj\Debug\GoDurban.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\obj\Debug\GoDurban.csproj.CopyComplete
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\obj\Debug\GoDurban.dll
+C:\Users\Administrator\Documents\GO Durban\GoDurban\GoDurban\obj\Debug\GoDurban.pdb
